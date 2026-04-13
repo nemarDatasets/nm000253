@@ -1,0 +1,24 @@
+{
+  "TaskName": "movie",
+  "Manufacturer": "Brain Products",
+  "PowerLineFrequency": "n/a",
+  "SamplingFrequency": 2048.0,
+  "SoftwareFilters": "n/a",
+  "RecordingDuration": 2933.59326171875,
+  "RecordingType": "continuous",
+  "iEEGReference": "n/a",
+  "ECOGChannelCount": 0,
+  "SEEGChannelCount": 166,
+  "EEGChannelCount": 0,
+  "EOGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "TaskDescription": "Participant watched the movie 'Megamind' while intracranial EEG was recorded at 2048 Hz.",
+  "StimulusPresentation": {
+    "SoftwareName": "Movie playback",
+    "StimulusType": "movie",
+    "MovieTitle": "Megamind"
+  }
+}

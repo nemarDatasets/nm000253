@@ -1,0 +1,14 @@
+{
+  "TaskName": "movie",
+  "SamplingFrequency": 2048.0,
+  "SEEGChannelCount": 218,
+  "RecordingType": "continuous",
+  "iEEGReference": "unknown",
+  "PowerLineFrequency": 60,
+  "TaskDescription": "Participant watched the movie 'Cars 2' while intracranial EEG was recorded at 2048 Hz.",
+  "StimulusPresentation": {
+    "SoftwareName": "Movie playback",
+    "StimulusType": "movie",
+    "MovieTitle": "Cars 2"
+  }
+}

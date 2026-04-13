@@ -1,0 +1,14 @@
+{
+  "TaskName": "movie",
+  "SamplingFrequency": 2048.0,
+  "SEEGChannelCount": 164,
+  "RecordingType": "continuous",
+  "iEEGReference": "unknown",
+  "PowerLineFrequency": 60,
+  "TaskDescription": "Participant watched the movie 'venom' while intracranial EEG was recorded at 2048 Hz.",
+  "StimulusPresentation": {
+    "SoftwareName": "Movie playback",
+    "StimulusType": "movie",
+    "MovieTitle": "venom"
+  }
+}
