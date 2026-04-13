@@ -1,5 +1,7 @@
 {
-    "iEEGCoordinateSystem": "Other",
-    "iEEGCoordinateSystemDescription": "n/a",
-    "iEEGCoordinateUnits": "n/a"
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "mm",
+  "iEEGCoordinateSystemDescription": "Electrode positions in each subject's native pre-operative T1 MRI (1 mm isotropic voxels, so voxel indices are numerically equal to mm). Axes: L (Left), I (Inferior), P (Posterior). Derived from Brain Treebank localization.zip (depth-wm.csv), where electrode coordinates were estimated from post-implant CT co-registered to pre-operative T1. FreeSurfer parcellation labels (Desikan-Killiany, Destrieux, DKT) included as columns in electrodes.tsv.",
+  "iEEGCoordinateProcessingDescription": "Post-implant CT co-registered to pre-operative T1 MRI. Electrode tip coordinates identified manually, projected to white-matter surface when the original contact lay in gray matter (ShiftDist column in Brain Treebank depth-wm.csv indicates distance to gray/white matter boundary).",
+  "iEEGCoordinateProcessingReference": "doi:10.48550/arXiv.2411.08343"
 }

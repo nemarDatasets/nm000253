@@ -1,0 +1,50 @@
+{
+  "name": {
+    "Description": "Electrode name (matches channels.tsv)"
+  },
+  "x": {
+    "Description": "x-coordinate in native T1 space (L axis; 1 mm voxels so values are equivalent to mm)",
+    "Units": "mm"
+  },
+  "y": {
+    "Description": "y-coordinate in native T1 space (I axis; 1 mm voxels so values are equivalent to mm)",
+    "Units": "mm"
+  },
+  "z": {
+    "Description": "z-coordinate in native T1 space (P axis; 1 mm voxels so values are equivalent to mm)",
+    "Units": "mm"
+  },
+  "size": {
+    "Description": "Contact surface area",
+    "Units": "mm^2"
+  },
+  "material": {
+    "Description": "Contact material"
+  },
+  "hemisphere": {
+    "Description": "Brain hemisphere of the contact (L or R)",
+    "Levels": {
+      "L": "Left",
+      "R": "Right",
+      "n/a": "unknown"
+    }
+  },
+  "type": {
+    "Description": "Electrode type (depth / grid / strip)",
+    "Levels": {
+      "depth": "stereotactic EEG depth electrode",
+      "grid": "subdural grid",
+      "strip": "subdural strip",
+      "n/a": "unknown"
+    }
+  },
+  "region_desikan": {
+    "Description": "Anatomical region label from the FreeSurfer Desikan-Killiany parcellation"
+  },
+  "region_destrieux": {
+    "Description": "Anatomical region label from the FreeSurfer Destrieux parcellation"
+  },
+  "region_dkt": {
+    "Description": "Anatomical region label from the FreeSurfer DKT parcellation"
+  }
+}

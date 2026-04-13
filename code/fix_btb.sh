@@ -118,45 +118,117 @@ if [[ -n "$subjects" ]]; then
 fi
 
 # -------------------------------------------------------------------
-# 3c. Generate _electrodes.tsv for each subject missing one
-#     iEEG requires electrodes.tsv at subject level (or per-session).
-#     Build from channels.tsv contents since we don't have coordinates.
+# 3c. Generate _electrodes.tsv per subject using depth-wm.csv from
+#     localization.zip (BTB's per-electrode localization). Each
+#     depth-wm.csv has columns: Electrode, L, I, P, DesikanKilliany,
+#     Destrieux, DKT, ShiftDist, ConfType. L/I/P are voxel indices
+#     in the subject's native T1 space.
 # -------------------------------------------------------------------
-echo "--- 3c. Generating _electrodes.tsv for subjects missing one ---"
-count=0
-for sub_dir in sub-*/ieeg; do
-  [[ -d "$sub_dir" ]] || continue
-  sub=$(dirname "$sub_dir")
-  elec_file="${sub}/ieeg/${sub}_electrodes.tsv"
-  if [[ -f "$elec_file" ]]; then
-    # Already exists — skip
-    continue
-  fi
-  # Pick any channels.tsv from this subject
-  chan=$(ls "${sub}/ieeg/"*_channels.tsv 2>/dev/null | head -1)
-  [[ -z "$chan" ]] && continue
-  # Build electrodes.tsv with required columns name, x, y, z, size
-  awk -F'\t' -v OFS='\t' '
-    NR == 1 {
-      # Find name + type cols
-      for (i=1; i<=NF; i++) {
-        if ($i == "name") name_col = i
-        if ($i == "type") type_col = i
-      }
-      print "name","x","y","z","size","material"
-      next
-    }
-    # Only include SEEG channels in electrodes.tsv
-    $type_col == "SEEG" {
-      print $name_col, "n/a", "n/a", "n/a", "n/a", "platinum-iridium"
-    }
-  ' "$chan" > "$elec_file"
-  count=$((count + 1))
-done
-echo "  Created $count _electrodes.tsv files"
+echo "--- 3c. Generating _electrodes.tsv from localization.zip ---"
+
+# Ensure localization data is available
+LOC_ZIP=""
+if [[ -f code/localization.zip ]]; then
+  LOC_ZIP=code/localization.zip
+elif [[ -f /tmp/localization.zip ]]; then
+  LOC_ZIP=/tmp/localization.zip
+  cp /tmp/localization.zip code/localization.zip 2>/dev/null || true
+else
+  echo "  ERROR: localization.zip missing. Fetching from braintreebank.dev..."
+  /usr/bin/curl -sL --max-time 60 -o code/localization.zip \
+    "https://braintreebank.dev/data/localization.zip"
+  LOC_ZIP=code/localization.zip
+fi
+
+rm -rf /tmp/btb_localization
+mkdir -p /tmp/btb_localization
+unzip -q -o "$LOC_ZIP" -d /tmp/btb_localization
+
+python3 <<'PYEOF'
+import csv
+from pathlib import Path
+
+count = 0
+for sub_path in sorted(Path(".").glob("sub-*")):
+    sub_id = sub_path.name.replace("sub-", "").lstrip("0") or "0"
+    # Source file: /tmp/btb_localization/localization/sub_<id>/depth-wm.csv
+    src_csv = Path(f"/tmp/btb_localization/localization/sub_{int(sub_id)}/depth-wm.csv")
+    if not src_csv.exists():
+        print(f"  sub-{int(sub_id):02d}: localization CSV not found, skipping")
+        continue
+
+    # Read the localization CSV: name → (L, I, P, DKT label)
+    loc = {}
+    with open(src_csv, encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            name = row["Electrode"]
+            # Clean the name the same way the converter did
+            cleaned = name.replace("*", "x").replace("/", "-").replace(" ", "")
+            loc[cleaned] = {
+                "x": row["L"],
+                "y": row["I"],
+                "z": row["P"],
+                "desikan": row.get("DesikanKilliany", "n/a"),
+                "destrieux": row.get("Destrieux", "n/a"),
+                "dkt": row.get("DKT", "n/a"),
+            }
+
+    # Pick any channels.tsv from this subject to get the channel list
+    ch_files = sorted(sub_path.rglob("*_channels.tsv"))
+    if not ch_files:
+        continue
+    # utf-8-sig strips BOM if present
+    with open(ch_files[0], encoding="utf-8-sig") as f:
+        chan_reader = csv.DictReader(f, delimiter="\t")
+        ch_names = [row["name"] for row in chan_reader if row.get("type") == "SEEG"]
+
+    # Build electrodes.tsv
+    elec_file = sub_path / "ieeg" / f"sub-{int(sub_id):02d}_electrodes.tsv"
+    elec_file.parent.mkdir(parents=True, exist_ok=True)
+    with open(elec_file, "w") as f:
+        f.write("name\tx\ty\tz\tsize\tmaterial\themisphere\ttype\tregion_desikan\tregion_destrieux\tregion_dkt\n")
+        matched = 0
+        for n in ch_names:
+            info = loc.get(n)
+            if info:
+                # Derive hemisphere from anatomical label prefix (ctx-lh- / ctx-rh-)
+                reg = info["desikan"]
+                hemi = "L" if "lh" in reg else ("R" if "rh" in reg else "n/a")
+                f.write(f"{n}\t{info['x']}\t{info['y']}\t{info['z']}\tn/a\tplatinum-iridium\t{hemi}\tdepth\t{info['desikan']}\t{info['destrieux']}\t{info['dkt']}\n")
+                matched += 1
+            else:
+                f.write(f"{n}\tn/a\tn/a\tn/a\tn/a\tplatinum-iridium\tn/a\tdepth\tn/a\tn/a\tn/a\n")
+        total = len(ch_names)
+    print(f"  sub-{int(sub_id):02d}: electrodes.tsv written with {matched}/{total} coordinates matched")
+    count += 1
+
+print(f"\n  Total subjects with electrodes.tsv: {count}")
+
+# Write a root electrodes.json sidecar that declares the extra columns
+# (hemisphere, type, region_desikan, region_destrieux, region_dkt)
+import json as _json
+with open("electrodes.json", "w") as _f:
+    _json.dump({
+        "name": {"Description": "Electrode name (matches channels.tsv)"},
+        "x": {"Description": "x-coordinate in native T1 space (L axis; 1 mm voxels so values are equivalent to mm)", "Units": "mm"},
+        "y": {"Description": "y-coordinate in native T1 space (I axis; 1 mm voxels so values are equivalent to mm)", "Units": "mm"},
+        "z": {"Description": "z-coordinate in native T1 space (P axis; 1 mm voxels so values are equivalent to mm)", "Units": "mm"},
+        "size": {"Description": "Contact surface area", "Units": "mm^2"},
+        "material": {"Description": "Contact material"},
+        "hemisphere": {"Description": "Brain hemisphere of the contact (L or R)", "Levels": {"L": "Left", "R": "Right", "n/a": "unknown"}},
+        "type": {"Description": "Electrode type (depth / grid / strip)", "Levels": {"depth": "stereotactic EEG depth electrode", "grid": "subdural grid", "strip": "subdural strip", "n/a": "unknown"}},
+        "region_desikan": {"Description": "Anatomical region label from the FreeSurfer Desikan-Killiany parcellation"},
+        "region_destrieux": {"Description": "Anatomical region label from the FreeSurfer Destrieux parcellation"},
+        "region_dkt": {"Description": "Anatomical region label from the FreeSurfer DKT parcellation"},
+    }, _f, indent=2)
+    _f.write("\n")
+print("  electrodes.json root sidecar written")
+PYEOF
 
 # -------------------------------------------------------------------
 # 3d. Generate _coordsystem.json for each subject with electrodes.tsv
+#     Coordinates are native T1 voxel indices (L, I, P axes).
 # -------------------------------------------------------------------
 echo "--- 3d. Generating _coordsystem.json for iEEG subjects ---"
 count=0
@@ -164,18 +236,25 @@ for elec in $(find . -name "*_electrodes.tsv"); do
   dir=$(dirname "$elec")
   base=$(basename "$elec" _electrodes.tsv)
   coord="${dir}/${base}_coordsystem.json"
-  [[ -f "$coord" ]] && continue
+  # Always overwrite with the correct content
   cat > "$coord" <<'EOF'
 {
   "iEEGCoordinateSystem": "Other",
   "iEEGCoordinateUnits": "mm",
-  "iEEGCoordinateSystemDescription": "Electrode coordinates are not available in the distributed Brain Treebank HDF5 files. Anatomical localization is provided separately via the localization.zip archive (depth-wm.csv per subject), not per-electrode coordinates in native MRI space.",
-  "iEEGCoordinateProcessingDescription": "n/a"
+  "iEEGCoordinateSystemDescription": "Electrode positions in each subject's native pre-operative T1 MRI (1 mm isotropic voxels, so voxel indices are numerically equal to mm). Axes: L (Left), I (Inferior), P (Posterior). Derived from Brain Treebank localization.zip (depth-wm.csv), where electrode coordinates were estimated from post-implant CT co-registered to pre-operative T1. FreeSurfer parcellation labels (Desikan-Killiany, Destrieux, DKT) included as columns in electrodes.tsv.",
+  "iEEGCoordinateProcessingDescription": "Post-implant CT co-registered to pre-operative T1 MRI. Electrode tip coordinates identified manually, projected to white-matter surface when the original contact lay in gray matter (ShiftDist column in Brain Treebank depth-wm.csv indicates distance to gray/white matter boundary).",
+  "iEEGCoordinateProcessingReference": "doi:10.48550/arXiv.2411.08343"
 }
 EOF
   count=$((count + 1))
 done
-echo "  Created $count _coordsystem.json files"
+echo "  Created/updated $count _coordsystem.json files"
+
+# Clean up unzip dir
+rm -rf /tmp/btb_localization
+
+# Copy localization.zip into code/ for provenance
+[[ -f code/localization.zip ]] || cp /tmp/localization.zip code/localization.zip 2>/dev/null || true
 
 # -------------------------------------------------------------------
 # 4. Archive this script into code/ for provenance
