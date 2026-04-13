@@ -1,219 +1,219 @@
-name	type	units	status
-T2bH1	seeg	µV	good
-T2bH2	seeg	µV	good
-T2bH3	seeg	µV	bad
-T2bH4	seeg	µV	good
-T2bH5	seeg	µV	good
-T2bH6	seeg	µV	good
-T2bH7	seeg	µV	good
-T2bH8	seeg	µV	good
-T2bH9	seeg	µV	good
-T2bH10	seeg	µV	good
-T2bH11	seeg	µV	good
-T2bH12	seeg	µV	good
-T2bH13	seeg	µV	good
-T2bH14	seeg	µV	good
-T2bH15	seeg	µV	good
-T2bH16	seeg	µV	good
-T2aA1	seeg	µV	good
-T2aA2	seeg	µV	good
-T2aA3	seeg	µV	good
-T2aA4	seeg	µV	good
-T2aA5	seeg	µV	bad
-T2aA6	seeg	µV	bad
-T2aA7	seeg	µV	good
-T2aA8	seeg	µV	good
-T2aA9	seeg	µV	good
-T2aA10	seeg	µV	good
-T2aA11	seeg	µV	good
-T2aA12	seeg	µV	good
-T2aA13	seeg	µV	good
-T2aA14	seeg	µV	good
-T1cIf1	seeg	µV	good
-T1cIf2	seeg	µV	good
-T1cIf3	seeg	µV	good
-T1cIf4	seeg	µV	good
-T1cIf5	seeg	µV	good
-T1cIf6	seeg	µV	good
-T1cIf7	seeg	µV	good
-T1cIf8	seeg	µV	good
-T1cIf9	seeg	µV	good
-T1cIf10	seeg	µV	good
-T1cIf11	seeg	µV	good
-T1cIf12	seeg	µV	good
-T1bId1	seeg	µV	good
-T1bId2	seeg	µV	good
-T1bId3	seeg	µV	good
-T1bId4	seeg	µV	good
-T1bId5	seeg	µV	good
-T1bId6	seeg	µV	good
-T1bId7	seeg	µV	good
-T1bId8	seeg	µV	good
-T1bId9	seeg	µV	good
-T1bId10	seeg	µV	good
-T1aIa1	seeg	µV	good
-T1aIa2	seeg	µV	good
-T1aIa3	seeg	µV	good
-T1aIa4	seeg	µV	good
-T1aIa5	seeg	µV	good
-T1aIa6	seeg	µV	good
-T1aIa7	seeg	µV	good
-T1aIa8	seeg	µV	good
-T1aIa9	seeg	µV	good
-T1aIa10	seeg	µV	good
-P2cCc1	seeg	µV	good
-P2cCc2	seeg	µV	good
-P2cCc3	seeg	µV	good
-P2cCc4	seeg	µV	good
-P2cCc5	seeg	µV	good
-P2cCc6	seeg	µV	good
-P2cCc7	seeg	µV	good
-P2cCc8	seeg	µV	good
-P2cCc9	seeg	µV	good
-P2cCc10	seeg	µV	good
-P2cCc11	seeg	µV	good
-P2cCc12	seeg	µV	good
-P2cCc13	seeg	µV	good
-P2cCc14	seeg	µV	good
-P2cCc15	seeg	µV	good
-P2cCc16	seeg	µV	bad
-P2aIe1	seeg	µV	good
-P2aIe2	seeg	µV	good
-P2aIe3	seeg	µV	good
-P2aIe4	seeg	µV	good
-P2aIe5	seeg	µV	good
-P2aIe6	seeg	µV	good
-P2aIe7	seeg	µV	good
-P2aIe8	seeg	µV	good
-P2aIe9	seeg	µV	good
-P2aIe10	seeg	µV	good
-P2aIe11	seeg	µV	good
-P2aIe12	seeg	µV	good
-F3cIc1	seeg	µV	good
-F3cIc2	seeg	µV	good
-F3cIc3	seeg	µV	good
-F3cIc4	seeg	µV	good
-F3cIc5	seeg	µV	good
-F3cIc6	seeg	µV	good
-F3cIc7	seeg	µV	good
-F3cIc8	seeg	µV	good
-F3cIc9	seeg	µV	good
-F3cIc10	seeg	µV	good
-F3bIb1	seeg	µV	good
-F3bIb2	seeg	µV	good
-F3bIb3	seeg	µV	good
-F3bIb4	seeg	µV	good
-F3bIb5	seeg	µV	good
-F3bIb6	seeg	µV	good
-F3bIb7	seeg	µV	good
-F3bIb8	seeg	µV	good
-F3bIb9	seeg	µV	good
-F3bIb10	seeg	µV	good
-F3aOFc1	seeg	µV	good
-F3aOFc2	seeg	µV	good
-F3aOFc3	seeg	µV	good
-F3aOFc4	seeg	µV	good
-F3aOFc5	seeg	µV	good
-F3aOFc6	seeg	µV	good
-F3aOFc7	seeg	µV	good
-F3aOFc8	seeg	µV	good
-F3aOFc9	seeg	µV	good
-F3aOFc10	seeg	µV	good
-F3aOFc11	seeg	µV	good
-F3aOFc12	seeg	µV	good
-F3aOFc13	seeg	µV	good
-F3aOFc14	seeg	µV	good
-F3aOFc15	seeg	µV	good
-F3aOFc16	seeg	µV	good
-P2bIg1	seeg	µV	bad
-P2bIg2	seeg	µV	good
-P2bIg3	seeg	µV	good
-P2bIg4	seeg	µV	good
-P2bIg5	seeg	µV	good
-P2bIg6	seeg	µV	good
-P2bIg7	seeg	µV	good
-P2bIg8	seeg	µV	good
-P2bIg9	seeg	µV	good
-P2bIg10	seeg	µV	good
-P2bIg11	seeg	µV	good
-P2bIg12	seeg	µV	good
-F2e1	seeg	µV	good
-F2e2	seeg	µV	good
-F2e3	seeg	µV	good
-F2e4	seeg	µV	good
-F2e5	seeg	µV	good
-F2e6	seeg	µV	good
-F2e7	seeg	µV	good
-F2e8	seeg	µV	good
-F2c1	seeg	µV	good
-F2c2	seeg	µV	good
-F2c3	seeg	µV	good
-F2c4	seeg	µV	good
-F2c5	seeg	µV	good
-F2c6	seeg	µV	good
-F2c7	seeg	µV	good
-F2c8	seeg	µV	good
-F2aOFb1	seeg	µV	good
-F2aOFb2	seeg	µV	good
-F2aOFb3	seeg	µV	good
-F2aOFb4	seeg	µV	good
-F2aOFb5	seeg	µV	good
-F2aOFb6	seeg	µV	good
-F2aOFb7	seeg	µV	good
-F2aOFb8	seeg	µV	good
-F2aOFb9	seeg	µV	good
-F2aOFb10	seeg	µV	good
-F2aOFb11	seeg	µV	good
-F2aOFb12	seeg	µV	good
-F2aOFb13	seeg	µV	good
-F2aOFb14	seeg	µV	good
-F2aOFb15	seeg	µV	good
-F2aOFb16	seeg	µV	good
-F2dCb1	seeg	µV	good
-F2dCb2	seeg	µV	good
-F2dCb3	seeg	µV	good
-F2dCb4	seeg	µV	good
-F2dCb5	seeg	µV	good
-F2dCb6	seeg	µV	good
-F2dCb7	seeg	µV	good
-F2dCb8	seeg	µV	good
-F2dCb9	seeg	µV	good
-F2dCb10	seeg	µV	good
-F2dCb11	seeg	µV	good
-F2dCb12	seeg	µV	good
-F2dCb13	seeg	µV	good
-F2dCb14	seeg	µV	good
-F2bCa1	seeg	µV	good
-F2bCa2	seeg	µV	good
-F2bCa3	seeg	µV	good
-F2bCa4	seeg	µV	good
-F2bCa5	seeg	µV	good
-F2bCa6	seeg	µV	good
-F2bCa7	seeg	µV	good
-F2bCa8	seeg	µV	good
-F2bCa9	seeg	µV	good
-F2bCa10	seeg	µV	good
-F2bCa11	seeg	µV	good
-F2bCa12	seeg	µV	good
-F2bCa13	seeg	µV	good
-F2bCa14	seeg	µV	good
-F2bCa15	seeg	µV	good
-F2bCa16	seeg	µV	good
-F1x0Fa1	seeg	µV	good
-F1x0Fa2	seeg	µV	good
-F1x0Fa3	seeg	µV	good
-F1x0Fa4	seeg	µV	good
-F1x0Fa5	seeg	µV	good
-F1x0Fa6	seeg	µV	good
-F1x0Fa7	seeg	µV	good
-F1x0Fa8	seeg	µV	good
-F1x0Fa9	seeg	µV	good
-F1x0Fa10	seeg	µV	good
-F1x0Fa11	seeg	µV	good
-F1x0Fa12	seeg	µV	good
-F1x0Fa13	seeg	µV	good
-F1x0Fa14	seeg	µV	good
-F1x0Fa15	seeg	µV	good
-F1x0Fa16	seeg	µV	good
-DC10	seeg	µV	bad
-DC4	seeg	µV	bad
+name	type	units	low_cutoff	high_cutoff	status
+T2bH1	SEEG	µV	0.0	1024	good
+T2bH2	SEEG	µV	0.0	1024	good
+T2bH3	SEEG	µV	0.0	1024	bad
+T2bH4	SEEG	µV	0.0	1024	good
+T2bH5	SEEG	µV	0.0	1024	good
+T2bH6	SEEG	µV	0.0	1024	good
+T2bH7	SEEG	µV	0.0	1024	good
+T2bH8	SEEG	µV	0.0	1024	good
+T2bH9	SEEG	µV	0.0	1024	good
+T2bH10	SEEG	µV	0.0	1024	good
+T2bH11	SEEG	µV	0.0	1024	good
+T2bH12	SEEG	µV	0.0	1024	good
+T2bH13	SEEG	µV	0.0	1024	good
+T2bH14	SEEG	µV	0.0	1024	good
+T2bH15	SEEG	µV	0.0	1024	good
+T2bH16	SEEG	µV	0.0	1024	good
+T2aA1	SEEG	µV	0.0	1024	good
+T2aA2	SEEG	µV	0.0	1024	good
+T2aA3	SEEG	µV	0.0	1024	good
+T2aA4	SEEG	µV	0.0	1024	good
+T2aA5	SEEG	µV	0.0	1024	bad
+T2aA6	SEEG	µV	0.0	1024	bad
+T2aA7	SEEG	µV	0.0	1024	good
+T2aA8	SEEG	µV	0.0	1024	good
+T2aA9	SEEG	µV	0.0	1024	good
+T2aA10	SEEG	µV	0.0	1024	good
+T2aA11	SEEG	µV	0.0	1024	good
+T2aA12	SEEG	µV	0.0	1024	good
+T2aA13	SEEG	µV	0.0	1024	good
+T2aA14	SEEG	µV	0.0	1024	good
+T1cIf1	SEEG	µV	0.0	1024	good
+T1cIf2	SEEG	µV	0.0	1024	good
+T1cIf3	SEEG	µV	0.0	1024	good
+T1cIf4	SEEG	µV	0.0	1024	good
+T1cIf5	SEEG	µV	0.0	1024	good
+T1cIf6	SEEG	µV	0.0	1024	good
+T1cIf7	SEEG	µV	0.0	1024	good
+T1cIf8	SEEG	µV	0.0	1024	good
+T1cIf9	SEEG	µV	0.0	1024	good
+T1cIf10	SEEG	µV	0.0	1024	good
+T1cIf11	SEEG	µV	0.0	1024	good
+T1cIf12	SEEG	µV	0.0	1024	good
+T1bId1	SEEG	µV	0.0	1024	good
+T1bId2	SEEG	µV	0.0	1024	good
+T1bId3	SEEG	µV	0.0	1024	good
+T1bId4	SEEG	µV	0.0	1024	good
+T1bId5	SEEG	µV	0.0	1024	good
+T1bId6	SEEG	µV	0.0	1024	good
+T1bId7	SEEG	µV	0.0	1024	good
+T1bId8	SEEG	µV	0.0	1024	good
+T1bId9	SEEG	µV	0.0	1024	good
+T1bId10	SEEG	µV	0.0	1024	good
+T1aIa1	SEEG	µV	0.0	1024	good
+T1aIa2	SEEG	µV	0.0	1024	good
+T1aIa3	SEEG	µV	0.0	1024	good
+T1aIa4	SEEG	µV	0.0	1024	good
+T1aIa5	SEEG	µV	0.0	1024	good
+T1aIa6	SEEG	µV	0.0	1024	good
+T1aIa7	SEEG	µV	0.0	1024	good
+T1aIa8	SEEG	µV	0.0	1024	good
+T1aIa9	SEEG	µV	0.0	1024	good
+T1aIa10	SEEG	µV	0.0	1024	good
+P2cCc1	SEEG	µV	0.0	1024	good
+P2cCc2	SEEG	µV	0.0	1024	good
+P2cCc3	SEEG	µV	0.0	1024	good
+P2cCc4	SEEG	µV	0.0	1024	good
+P2cCc5	SEEG	µV	0.0	1024	good
+P2cCc6	SEEG	µV	0.0	1024	good
+P2cCc7	SEEG	µV	0.0	1024	good
+P2cCc8	SEEG	µV	0.0	1024	good
+P2cCc9	SEEG	µV	0.0	1024	good
+P2cCc10	SEEG	µV	0.0	1024	good
+P2cCc11	SEEG	µV	0.0	1024	good
+P2cCc12	SEEG	µV	0.0	1024	good
+P2cCc13	SEEG	µV	0.0	1024	good
+P2cCc14	SEEG	µV	0.0	1024	good
+P2cCc15	SEEG	µV	0.0	1024	good
+P2cCc16	SEEG	µV	0.0	1024	bad
+P2aIe1	SEEG	µV	0.0	1024	good
+P2aIe2	SEEG	µV	0.0	1024	good
+P2aIe3	SEEG	µV	0.0	1024	good
+P2aIe4	SEEG	µV	0.0	1024	good
+P2aIe5	SEEG	µV	0.0	1024	good
+P2aIe6	SEEG	µV	0.0	1024	good
+P2aIe7	SEEG	µV	0.0	1024	good
+P2aIe8	SEEG	µV	0.0	1024	good
+P2aIe9	SEEG	µV	0.0	1024	good
+P2aIe10	SEEG	µV	0.0	1024	good
+P2aIe11	SEEG	µV	0.0	1024	good
+P2aIe12	SEEG	µV	0.0	1024	good
+F3cIc1	SEEG	µV	0.0	1024	good
+F3cIc2	SEEG	µV	0.0	1024	good
+F3cIc3	SEEG	µV	0.0	1024	good
+F3cIc4	SEEG	µV	0.0	1024	good
+F3cIc5	SEEG	µV	0.0	1024	good
+F3cIc6	SEEG	µV	0.0	1024	good
+F3cIc7	SEEG	µV	0.0	1024	good
+F3cIc8	SEEG	µV	0.0	1024	good
+F3cIc9	SEEG	µV	0.0	1024	good
+F3cIc10	SEEG	µV	0.0	1024	good
+F3bIb1	SEEG	µV	0.0	1024	good
+F3bIb2	SEEG	µV	0.0	1024	good
+F3bIb3	SEEG	µV	0.0	1024	good
+F3bIb4	SEEG	µV	0.0	1024	good
+F3bIb5	SEEG	µV	0.0	1024	good
+F3bIb6	SEEG	µV	0.0	1024	good
+F3bIb7	SEEG	µV	0.0	1024	good
+F3bIb8	SEEG	µV	0.0	1024	good
+F3bIb9	SEEG	µV	0.0	1024	good
+F3bIb10	SEEG	µV	0.0	1024	good
+F3aOFc1	SEEG	µV	0.0	1024	good
+F3aOFc2	SEEG	µV	0.0	1024	good
+F3aOFc3	SEEG	µV	0.0	1024	good
+F3aOFc4	SEEG	µV	0.0	1024	good
+F3aOFc5	SEEG	µV	0.0	1024	good
+F3aOFc6	SEEG	µV	0.0	1024	good
+F3aOFc7	SEEG	µV	0.0	1024	good
+F3aOFc8	SEEG	µV	0.0	1024	good
+F3aOFc9	SEEG	µV	0.0	1024	good
+F3aOFc10	SEEG	µV	0.0	1024	good
+F3aOFc11	SEEG	µV	0.0	1024	good
+F3aOFc12	SEEG	µV	0.0	1024	good
+F3aOFc13	SEEG	µV	0.0	1024	good
+F3aOFc14	SEEG	µV	0.0	1024	good
+F3aOFc15	SEEG	µV	0.0	1024	good
+F3aOFc16	SEEG	µV	0.0	1024	good
+P2bIg1	SEEG	µV	0.0	1024	bad
+P2bIg2	SEEG	µV	0.0	1024	good
+P2bIg3	SEEG	µV	0.0	1024	good
+P2bIg4	SEEG	µV	0.0	1024	good
+P2bIg5	SEEG	µV	0.0	1024	good
+P2bIg6	SEEG	µV	0.0	1024	good
+P2bIg7	SEEG	µV	0.0	1024	good
+P2bIg8	SEEG	µV	0.0	1024	good
+P2bIg9	SEEG	µV	0.0	1024	good
+P2bIg10	SEEG	µV	0.0	1024	good
+P2bIg11	SEEG	µV	0.0	1024	good
+P2bIg12	SEEG	µV	0.0	1024	good
+F2e1	SEEG	µV	0.0	1024	good
+F2e2	SEEG	µV	0.0	1024	good
+F2e3	SEEG	µV	0.0	1024	good
+F2e4	SEEG	µV	0.0	1024	good
+F2e5	SEEG	µV	0.0	1024	good
+F2e6	SEEG	µV	0.0	1024	good
+F2e7	SEEG	µV	0.0	1024	good
+F2e8	SEEG	µV	0.0	1024	good
+F2c1	SEEG	µV	0.0	1024	good
+F2c2	SEEG	µV	0.0	1024	good
+F2c3	SEEG	µV	0.0	1024	good
+F2c4	SEEG	µV	0.0	1024	good
+F2c5	SEEG	µV	0.0	1024	good
+F2c6	SEEG	µV	0.0	1024	good
+F2c7	SEEG	µV	0.0	1024	good
+F2c8	SEEG	µV	0.0	1024	good
+F2aOFb1	SEEG	µV	0.0	1024	good
+F2aOFb2	SEEG	µV	0.0	1024	good
+F2aOFb3	SEEG	µV	0.0	1024	good
+F2aOFb4	SEEG	µV	0.0	1024	good
+F2aOFb5	SEEG	µV	0.0	1024	good
+F2aOFb6	SEEG	µV	0.0	1024	good
+F2aOFb7	SEEG	µV	0.0	1024	good
+F2aOFb8	SEEG	µV	0.0	1024	good
+F2aOFb9	SEEG	µV	0.0	1024	good
+F2aOFb10	SEEG	µV	0.0	1024	good
+F2aOFb11	SEEG	µV	0.0	1024	good
+F2aOFb12	SEEG	µV	0.0	1024	good
+F2aOFb13	SEEG	µV	0.0	1024	good
+F2aOFb14	SEEG	µV	0.0	1024	good
+F2aOFb15	SEEG	µV	0.0	1024	good
+F2aOFb16	SEEG	µV	0.0	1024	good
+F2dCb1	SEEG	µV	0.0	1024	good
+F2dCb2	SEEG	µV	0.0	1024	good
+F2dCb3	SEEG	µV	0.0	1024	good
+F2dCb4	SEEG	µV	0.0	1024	good
+F2dCb5	SEEG	µV	0.0	1024	good
+F2dCb6	SEEG	µV	0.0	1024	good
+F2dCb7	SEEG	µV	0.0	1024	good
+F2dCb8	SEEG	µV	0.0	1024	good
+F2dCb9	SEEG	µV	0.0	1024	good
+F2dCb10	SEEG	µV	0.0	1024	good
+F2dCb11	SEEG	µV	0.0	1024	good
+F2dCb12	SEEG	µV	0.0	1024	good
+F2dCb13	SEEG	µV	0.0	1024	good
+F2dCb14	SEEG	µV	0.0	1024	good
+F2bCa1	SEEG	µV	0.0	1024	good
+F2bCa2	SEEG	µV	0.0	1024	good
+F2bCa3	SEEG	µV	0.0	1024	good
+F2bCa4	SEEG	µV	0.0	1024	good
+F2bCa5	SEEG	µV	0.0	1024	good
+F2bCa6	SEEG	µV	0.0	1024	good
+F2bCa7	SEEG	µV	0.0	1024	good
+F2bCa8	SEEG	µV	0.0	1024	good
+F2bCa9	SEEG	µV	0.0	1024	good
+F2bCa10	SEEG	µV	0.0	1024	good
+F2bCa11	SEEG	µV	0.0	1024	good
+F2bCa12	SEEG	µV	0.0	1024	good
+F2bCa13	SEEG	µV	0.0	1024	good
+F2bCa14	SEEG	µV	0.0	1024	good
+F2bCa15	SEEG	µV	0.0	1024	good
+F2bCa16	SEEG	µV	0.0	1024	good
+F1x0Fa1	SEEG	µV	0.0	1024	good
+F1x0Fa2	SEEG	µV	0.0	1024	good
+F1x0Fa3	SEEG	µV	0.0	1024	good
+F1x0Fa4	SEEG	µV	0.0	1024	good
+F1x0Fa5	SEEG	µV	0.0	1024	good
+F1x0Fa6	SEEG	µV	0.0	1024	good
+F1x0Fa7	SEEG	µV	0.0	1024	good
+F1x0Fa8	SEEG	µV	0.0	1024	good
+F1x0Fa9	SEEG	µV	0.0	1024	good
+F1x0Fa10	SEEG	µV	0.0	1024	good
+F1x0Fa11	SEEG	µV	0.0	1024	good
+F1x0Fa12	SEEG	µV	0.0	1024	good
+F1x0Fa13	SEEG	µV	0.0	1024	good
+F1x0Fa14	SEEG	µV	0.0	1024	good
+F1x0Fa15	SEEG	µV	0.0	1024	good
+F1x0Fa16	SEEG	µV	0.0	1024	good
+DC10	SEEG	µV	0.0	1024	bad
+DC4	SEEG	µV	0.0	1024	bad

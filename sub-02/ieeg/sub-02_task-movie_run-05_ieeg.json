@@ -10,5 +10,8 @@
     "SoftwareName": "Movie playback",
     "StimulusType": "movie",
     "MovieTitle": "Avengers Infinity War"
-  }
+  },
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": "n/a",
+  "Manufacturer": "n/a"
 }

@@ -1,0 +1,6 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "mm",
+  "iEEGCoordinateSystemDescription": "Electrode coordinates are not available in the distributed Brain Treebank HDF5 files. Anatomical localization is provided separately via the localization.zip archive (depth-wm.csv per subject), not per-electrode coordinates in native MRI space.",
+  "iEEGCoordinateProcessingDescription": "n/a"
+}

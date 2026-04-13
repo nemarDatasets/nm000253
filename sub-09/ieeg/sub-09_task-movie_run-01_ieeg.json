@@ -20,5 +20,6 @@
     "SoftwareName": "Movie playback",
     "StimulusType": "movie",
     "MovieTitle": "Antman"
-  }
+  },
+  "HardwareFilters": "n/a"
 }

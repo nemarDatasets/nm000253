@@ -1,157 +1,157 @@
-name	type	units	status
-iEEG000	seeg	µV	good
-iEEG001	seeg	µV	good
-iEEG002	seeg	µV	good
-iEEG003	seeg	µV	good
-iEEG004	seeg	µV	good
-iEEG005	seeg	µV	good
-iEEG006	seeg	µV	good
-iEEG007	seeg	µV	good
-iEEG008	seeg	µV	good
-iEEG009	seeg	µV	good
-iEEG010	seeg	µV	good
-iEEG011	seeg	µV	good
-iEEG012	seeg	µV	good
-iEEG013	seeg	µV	good
-iEEG014	seeg	µV	good
-iEEG015	seeg	µV	good
-iEEG016	seeg	µV	good
-iEEG017	seeg	µV	good
-iEEG018	seeg	µV	good
-iEEG019	seeg	µV	good
-iEEG020	seeg	µV	good
-iEEG021	seeg	µV	good
-iEEG022	seeg	µV	good
-iEEG023	seeg	µV	good
-iEEG024	seeg	µV	good
-iEEG025	seeg	µV	good
-iEEG026	seeg	µV	good
-iEEG027	seeg	µV	good
-iEEG028	seeg	µV	good
-iEEG029	seeg	µV	good
-iEEG030	seeg	µV	good
-iEEG031	seeg	µV	good
-iEEG032	seeg	µV	good
-iEEG033	seeg	µV	good
-iEEG034	seeg	µV	good
-iEEG035	seeg	µV	good
-iEEG036	seeg	µV	good
-iEEG037	seeg	µV	good
-iEEG038	seeg	µV	good
-iEEG039	seeg	µV	good
-iEEG040	seeg	µV	good
-iEEG041	seeg	µV	good
-iEEG042	seeg	µV	good
-iEEG043	seeg	µV	good
-iEEG044	seeg	µV	good
-iEEG045	seeg	µV	good
-iEEG046	seeg	µV	good
-iEEG047	seeg	µV	good
-iEEG048	seeg	µV	good
-iEEG049	seeg	µV	good
-iEEG050	seeg	µV	good
-iEEG051	seeg	µV	good
-iEEG052	seeg	µV	good
-iEEG053	seeg	µV	good
-iEEG054	seeg	µV	good
-iEEG055	seeg	µV	good
-iEEG056	seeg	µV	good
-iEEG057	seeg	µV	good
-iEEG058	seeg	µV	good
-iEEG059	seeg	µV	good
-iEEG060	seeg	µV	good
-iEEG061	seeg	µV	good
-iEEG062	seeg	µV	good
-iEEG063	seeg	µV	good
-iEEG064	seeg	µV	good
-iEEG065	seeg	µV	good
-iEEG066	seeg	µV	good
-iEEG067	seeg	µV	good
-iEEG068	seeg	µV	good
-iEEG069	seeg	µV	good
-iEEG070	seeg	µV	good
-iEEG071	seeg	µV	good
-iEEG072	seeg	µV	good
-iEEG073	seeg	µV	good
-iEEG074	seeg	µV	good
-iEEG075	seeg	µV	good
-iEEG076	seeg	µV	good
-iEEG077	seeg	µV	good
-iEEG078	seeg	µV	good
-iEEG079	seeg	µV	good
-iEEG080	seeg	µV	good
-iEEG081	seeg	µV	good
-iEEG082	seeg	µV	good
-iEEG083	seeg	µV	good
-iEEG084	seeg	µV	good
-iEEG085	seeg	µV	good
-iEEG086	seeg	µV	good
-iEEG087	seeg	µV	good
-iEEG088	seeg	µV	good
-iEEG089	seeg	µV	good
-iEEG090	seeg	µV	good
-iEEG091	seeg	µV	good
-iEEG092	seeg	µV	good
-iEEG093	seeg	µV	good
-iEEG094	seeg	µV	good
-iEEG095	seeg	µV	good
-iEEG096	seeg	µV	good
-iEEG097	seeg	µV	good
-iEEG098	seeg	µV	good
-iEEG099	seeg	µV	good
-iEEG100	seeg	µV	good
-iEEG101	seeg	µV	good
-iEEG102	seeg	µV	good
-iEEG103	seeg	µV	good
-iEEG104	seeg	µV	good
-iEEG105	seeg	µV	good
-iEEG106	seeg	µV	good
-iEEG107	seeg	µV	good
-iEEG108	seeg	µV	good
-iEEG109	seeg	µV	good
-iEEG110	seeg	µV	good
-iEEG111	seeg	µV	good
-iEEG112	seeg	µV	good
-iEEG113	seeg	µV	good
-iEEG114	seeg	µV	good
-iEEG115	seeg	µV	good
-iEEG116	seeg	µV	good
-iEEG117	seeg	µV	good
-iEEG118	seeg	µV	good
-iEEG119	seeg	µV	good
-iEEG120	seeg	µV	good
-iEEG121	seeg	µV	good
-iEEG122	seeg	µV	good
-iEEG123	seeg	µV	good
-iEEG124	seeg	µV	good
-iEEG125	seeg	µV	good
-iEEG126	seeg	µV	good
-iEEG127	seeg	µV	good
-iEEG128	seeg	µV	good
-iEEG129	seeg	µV	good
-iEEG130	seeg	µV	good
-iEEG131	seeg	µV	good
-iEEG132	seeg	µV	good
-iEEG133	seeg	µV	good
-iEEG134	seeg	µV	good
-iEEG135	seeg	µV	good
-iEEG136	seeg	µV	good
-iEEG137	seeg	µV	good
-iEEG138	seeg	µV	good
-iEEG139	seeg	µV	good
-iEEG140	seeg	µV	good
-iEEG141	seeg	µV	good
-iEEG142	seeg	µV	good
-iEEG143	seeg	µV	good
-iEEG144	seeg	µV	good
-iEEG145	seeg	µV	good
-iEEG146	seeg	µV	good
-iEEG147	seeg	µV	good
-iEEG148	seeg	µV	good
-iEEG149	seeg	µV	good
-iEEG150	seeg	µV	good
-iEEG151	seeg	µV	good
-iEEG152	seeg	µV	good
-iEEG153	seeg	µV	good
-iEEG154	seeg	µV	good
-iEEG155	seeg	µV	good
+name	type	units	low_cutoff	high_cutoff	status
+iEEG000	SEEG	µV	0.0	1024	good
+iEEG001	SEEG	µV	0.0	1024	good
+iEEG002	SEEG	µV	0.0	1024	good
+iEEG003	SEEG	µV	0.0	1024	good
+iEEG004	SEEG	µV	0.0	1024	good
+iEEG005	SEEG	µV	0.0	1024	good
+iEEG006	SEEG	µV	0.0	1024	good
+iEEG007	SEEG	µV	0.0	1024	good
+iEEG008	SEEG	µV	0.0	1024	good
+iEEG009	SEEG	µV	0.0	1024	good
+iEEG010	SEEG	µV	0.0	1024	good
+iEEG011	SEEG	µV	0.0	1024	good
+iEEG012	SEEG	µV	0.0	1024	good
+iEEG013	SEEG	µV	0.0	1024	good
+iEEG014	SEEG	µV	0.0	1024	good
+iEEG015	SEEG	µV	0.0	1024	good
+iEEG016	SEEG	µV	0.0	1024	good
+iEEG017	SEEG	µV	0.0	1024	good
+iEEG018	SEEG	µV	0.0	1024	good
+iEEG019	SEEG	µV	0.0	1024	good
+iEEG020	SEEG	µV	0.0	1024	good
+iEEG021	SEEG	µV	0.0	1024	good
+iEEG022	SEEG	µV	0.0	1024	good
+iEEG023	SEEG	µV	0.0	1024	good
+iEEG024	SEEG	µV	0.0	1024	good
+iEEG025	SEEG	µV	0.0	1024	good
+iEEG026	SEEG	µV	0.0	1024	good
+iEEG027	SEEG	µV	0.0	1024	good
+iEEG028	SEEG	µV	0.0	1024	good
+iEEG029	SEEG	µV	0.0	1024	good
+iEEG030	SEEG	µV	0.0	1024	good
+iEEG031	SEEG	µV	0.0	1024	good
+iEEG032	SEEG	µV	0.0	1024	good
+iEEG033	SEEG	µV	0.0	1024	good
+iEEG034	SEEG	µV	0.0	1024	good
+iEEG035	SEEG	µV	0.0	1024	good
+iEEG036	SEEG	µV	0.0	1024	good
+iEEG037	SEEG	µV	0.0	1024	good
+iEEG038	SEEG	µV	0.0	1024	good
+iEEG039	SEEG	µV	0.0	1024	good
+iEEG040	SEEG	µV	0.0	1024	good
+iEEG041	SEEG	µV	0.0	1024	good
+iEEG042	SEEG	µV	0.0	1024	good
+iEEG043	SEEG	µV	0.0	1024	good
+iEEG044	SEEG	µV	0.0	1024	good
+iEEG045	SEEG	µV	0.0	1024	good
+iEEG046	SEEG	µV	0.0	1024	good
+iEEG047	SEEG	µV	0.0	1024	good
+iEEG048	SEEG	µV	0.0	1024	good
+iEEG049	SEEG	µV	0.0	1024	good
+iEEG050	SEEG	µV	0.0	1024	good
+iEEG051	SEEG	µV	0.0	1024	good
+iEEG052	SEEG	µV	0.0	1024	good
+iEEG053	SEEG	µV	0.0	1024	good
+iEEG054	SEEG	µV	0.0	1024	good
+iEEG055	SEEG	µV	0.0	1024	good
+iEEG056	SEEG	µV	0.0	1024	good
+iEEG057	SEEG	µV	0.0	1024	good
+iEEG058	SEEG	µV	0.0	1024	good
+iEEG059	SEEG	µV	0.0	1024	good
+iEEG060	SEEG	µV	0.0	1024	good
+iEEG061	SEEG	µV	0.0	1024	good
+iEEG062	SEEG	µV	0.0	1024	good
+iEEG063	SEEG	µV	0.0	1024	good
+iEEG064	SEEG	µV	0.0	1024	good
+iEEG065	SEEG	µV	0.0	1024	good
+iEEG066	SEEG	µV	0.0	1024	good
+iEEG067	SEEG	µV	0.0	1024	good
+iEEG068	SEEG	µV	0.0	1024	good
+iEEG069	SEEG	µV	0.0	1024	good
+iEEG070	SEEG	µV	0.0	1024	good
+iEEG071	SEEG	µV	0.0	1024	good
+iEEG072	SEEG	µV	0.0	1024	good
+iEEG073	SEEG	µV	0.0	1024	good
+iEEG074	SEEG	µV	0.0	1024	good
+iEEG075	SEEG	µV	0.0	1024	good
+iEEG076	SEEG	µV	0.0	1024	good
+iEEG077	SEEG	µV	0.0	1024	good
+iEEG078	SEEG	µV	0.0	1024	good
+iEEG079	SEEG	µV	0.0	1024	good
+iEEG080	SEEG	µV	0.0	1024	good
+iEEG081	SEEG	µV	0.0	1024	good
+iEEG082	SEEG	µV	0.0	1024	good
+iEEG083	SEEG	µV	0.0	1024	good
+iEEG084	SEEG	µV	0.0	1024	good
+iEEG085	SEEG	µV	0.0	1024	good
+iEEG086	SEEG	µV	0.0	1024	good
+iEEG087	SEEG	µV	0.0	1024	good
+iEEG088	SEEG	µV	0.0	1024	good
+iEEG089	SEEG	µV	0.0	1024	good
+iEEG090	SEEG	µV	0.0	1024	good
+iEEG091	SEEG	µV	0.0	1024	good
+iEEG092	SEEG	µV	0.0	1024	good
+iEEG093	SEEG	µV	0.0	1024	good
+iEEG094	SEEG	µV	0.0	1024	good
+iEEG095	SEEG	µV	0.0	1024	good
+iEEG096	SEEG	µV	0.0	1024	good
+iEEG097	SEEG	µV	0.0	1024	good
+iEEG098	SEEG	µV	0.0	1024	good
+iEEG099	SEEG	µV	0.0	1024	good
+iEEG100	SEEG	µV	0.0	1024	good
+iEEG101	SEEG	µV	0.0	1024	good
+iEEG102	SEEG	µV	0.0	1024	good
+iEEG103	SEEG	µV	0.0	1024	good
+iEEG104	SEEG	µV	0.0	1024	good
+iEEG105	SEEG	µV	0.0	1024	good
+iEEG106	SEEG	µV	0.0	1024	good
+iEEG107	SEEG	µV	0.0	1024	good
+iEEG108	SEEG	µV	0.0	1024	good
+iEEG109	SEEG	µV	0.0	1024	good
+iEEG110	SEEG	µV	0.0	1024	good
+iEEG111	SEEG	µV	0.0	1024	good
+iEEG112	SEEG	µV	0.0	1024	good
+iEEG113	SEEG	µV	0.0	1024	good
+iEEG114	SEEG	µV	0.0	1024	good
+iEEG115	SEEG	µV	0.0	1024	good
+iEEG116	SEEG	µV	0.0	1024	good
+iEEG117	SEEG	µV	0.0	1024	good
+iEEG118	SEEG	µV	0.0	1024	good
+iEEG119	SEEG	µV	0.0	1024	good
+iEEG120	SEEG	µV	0.0	1024	good
+iEEG121	SEEG	µV	0.0	1024	good
+iEEG122	SEEG	µV	0.0	1024	good
+iEEG123	SEEG	µV	0.0	1024	good
+iEEG124	SEEG	µV	0.0	1024	good
+iEEG125	SEEG	µV	0.0	1024	good
+iEEG126	SEEG	µV	0.0	1024	good
+iEEG127	SEEG	µV	0.0	1024	good
+iEEG128	SEEG	µV	0.0	1024	good
+iEEG129	SEEG	µV	0.0	1024	good
+iEEG130	SEEG	µV	0.0	1024	good
+iEEG131	SEEG	µV	0.0	1024	good
+iEEG132	SEEG	µV	0.0	1024	good
+iEEG133	SEEG	µV	0.0	1024	good
+iEEG134	SEEG	µV	0.0	1024	good
+iEEG135	SEEG	µV	0.0	1024	good
+iEEG136	SEEG	µV	0.0	1024	good
+iEEG137	SEEG	µV	0.0	1024	good
+iEEG138	SEEG	µV	0.0	1024	good
+iEEG139	SEEG	µV	0.0	1024	good
+iEEG140	SEEG	µV	0.0	1024	good
+iEEG141	SEEG	µV	0.0	1024	good
+iEEG142	SEEG	µV	0.0	1024	good
+iEEG143	SEEG	µV	0.0	1024	good
+iEEG144	SEEG	µV	0.0	1024	good
+iEEG145	SEEG	µV	0.0	1024	good
+iEEG146	SEEG	µV	0.0	1024	good
+iEEG147	SEEG	µV	0.0	1024	good
+iEEG148	SEEG	µV	0.0	1024	good
+iEEG149	SEEG	µV	0.0	1024	good
+iEEG150	SEEG	µV	0.0	1024	good
+iEEG151	SEEG	µV	0.0	1024	good
+iEEG152	SEEG	µV	0.0	1024	good
+iEEG153	SEEG	µV	0.0	1024	good
+iEEG154	SEEG	µV	0.0	1024	good
+iEEG155	SEEG	µV	0.0	1024	good

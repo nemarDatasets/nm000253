@@ -20,5 +20,6 @@
     "SoftwareName": "Movie playback",
     "StimulusType": "movie",
     "MovieTitle": "Megamind"
-  }
+  },
+  "HardwareFilters": "n/a"
 }

@@ -10,5 +10,8 @@
     "SoftwareName": "Movie playback",
     "StimulusType": "movie",
     "MovieTitle": "Shrek The Third"
-  }
+  },
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": "n/a",
+  "Manufacturer": "n/a"
 }

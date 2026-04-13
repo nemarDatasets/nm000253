@@ -10,5 +10,8 @@
     "SoftwareName": "Movie playback",
     "StimulusType": "movie",
     "MovieTitle": "Spiderman Far From Home"
-  }
+  },
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": "n/a",
+  "Manufacturer": "n/a"
 }
