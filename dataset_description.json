@@ -1,45 +1,45 @@
 {
-    "Name": "Wang et al. 2024 — Brain Treebank: Large-scale intracranial recordings from naturalistic language stimuli",
-    "BIDSVersion": "1.9.0",
-    "HEDVersion": "8.2.0",
-    "DatasetType": "raw",
-    "License": "CC BY 4.0",
-    "Authors": [
-        "Christopher Wang",
-        "Adam Uri Yaari",
-        "Aaditya K. Singh",
-        "Vighnesh Subramaniam",
-        "Dana Rosenfarb",
-        "Jan DeWitt",
-        "Pranav Misra",
-        "Joseph R. Madsen",
-        "Scellig Stone",
-        "Gabriel Kreiman",
-        "Boris Katz",
-        "Ignacio Cases",
-        "Andrei Barbu"
-    ],
-    "HowToAcknowledge": "Please cite: Wang, C., Yaari, A. U., Singh, A. K., Subramaniam, V., Rosenfarb, D., DeWitt, J., Misra, P., Madsen, J. R., Stone, S., Kreiman, G., Katz, B., Cases, I., & Barbu, A. (2024). Brain Treebank: Large-scale intracranial recordings from naturalistic language stimuli. Advances in Neural Information Processing Systems 37 (NeurIPS 2024, Datasets and Benchmarks Track). arXiv:2411.08343. https://braintreebank.dev/",
-    "EthicsApprovals": [
-        "Boston Children's Hospital / Harvard IRB (all subjects gave informed consent)"
-    ],
-    "ReferencesAndLinks": [
-        "https://arxiv.org/abs/2411.08343",
-        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/aefa2385b3f33abf1526ae4e2c208cd9-Abstract-Datasets_and_Benchmarks_Track.html",
-        "https://braintreebank.dev/",
-        "https://github.com/czlwang/brain_treebank_code_release"
-    ],
-    "DatasetDOI": "doi:10.48550/arXiv.2411.08343",
-    "GeneratedBy": [
-        {
-            "Name": "convert_braintreebank.py (EEGDash)",
-            "Description": "Converted per-trial HDF5 files (raw 2048 Hz iEEG) to BIDS-iEEG BrainVision format. Each trial (one movie) becomes one BIDS run. Electrode labels from the Brain Treebank metadata (electrode_labels/sub_X/). Corrupted electrodes flagged from corrupted_elec.json.",
-            "CodeURL": "https://github.com/bruaristimunha/EEGDash"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "URL": "https://braintreebank.dev/"
-        }
-    ]
+  "Name": "Wang et al. 2024 \u2014 Brain Treebank: Large-scale intracranial recordings from naturalistic language stimuli",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.2.0",
+  "DatasetType": "raw",
+  "License": "CC BY 4.0",
+  "Authors": [
+    "Christopher Wang",
+    "Adam Yaari",
+    "Aaditya K Singh",
+    "Vighnesh Subramaniam",
+    "Dana Rosenfarb",
+    "Jan DeWitt",
+    "Pranav Misra",
+    "Joseph R Madsen",
+    "Scellig Stone",
+    "Gabriel Kreiman",
+    "Boris Katz",
+    "Ignacio Cases",
+    "Andrei Barbu"
+  ],
+  "HowToAcknowledge": "Please cite: Wang, C., Yaari, A. U., Singh, A. K., Subramaniam, V., Rosenfarb, D., DeWitt, J., Misra, P., Madsen, J. R., Stone, S., Kreiman, G., Katz, B., Cases, I., & Barbu, A. (2024). Brain Treebank: Large-scale intracranial recordings from naturalistic language stimuli. Advances in Neural Information Processing Systems 37 (NeurIPS 2024, Datasets and Benchmarks Track). arXiv:2411.08343. https://braintreebank.dev/",
+  "EthicsApprovals": [
+    "Boston Children's Hospital / Harvard IRB (all subjects gave informed consent)"
+  ],
+  "ReferencesAndLinks": [
+    "https://arxiv.org/abs/2411.08343",
+    "https://proceedings.neurips.cc/paper_files/paper/2024/hash/aefa2385b3f33abf1526ae4e2c208cd9-Abstract-Datasets_and_Benchmarks_Track.html",
+    "https://braintreebank.dev/",
+    "https://github.com/czlwang/brain_treebank_code_release"
+  ],
+  "DatasetDOI": "doi:10.48550/arXiv.2411.08343",
+  "GeneratedBy": [
+    {
+      "Name": "convert_braintreebank.py (EEGDash)",
+      "Description": "Converted per-trial HDF5 files (raw 2048 Hz iEEG) to BIDS-iEEG BrainVision format. Each trial (one movie) becomes one BIDS run. Electrode labels from the Brain Treebank metadata (electrode_labels/sub_X/). Corrupted electrodes flagged from corrupted_elec.json.",
+      "CodeURL": "https://github.com/bruaristimunha/EEGDash"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "https://braintreebank.dev/"
+    }
+  ]
 }

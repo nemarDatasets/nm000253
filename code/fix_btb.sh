@@ -195,10 +195,13 @@ for sub_path in sorted(Path(".").glob("sub-*")):
                 # Derive hemisphere from anatomical label prefix (ctx-lh- / ctx-rh-)
                 reg = info["desikan"]
                 hemi = "L" if "lh" in reg else ("R" if "rh" in reg else "n/a")
-                f.write(f"{n}\t{info['x']}\t{info['y']}\t{info['z']}\tn/a\tplatinum-iridium\t{hemi}\tdepth\t{info['desikan']}\t{info['destrieux']}\t{info['dkt']}\n")
+                # Electrode material is NOT stated in the Brain Treebank paper
+                # or code release. Leave as n/a rather than inferring from
+                # general BCH clinical practice.
+                f.write(f"{n}\t{info['x']}\t{info['y']}\t{info['z']}\tn/a\tn/a\t{hemi}\tdepth\t{info['desikan']}\t{info['destrieux']}\t{info['dkt']}\n")
                 matched += 1
             else:
-                f.write(f"{n}\tn/a\tn/a\tn/a\tn/a\tplatinum-iridium\tn/a\tdepth\tn/a\tn/a\tn/a\n")
+                f.write(f"{n}\tn/a\tn/a\tn/a\tn/a\tn/a\tn/a\tdepth\tn/a\tn/a\tn/a\n")
         total = len(ch_names)
     print(f"  sub-{int(sub_id):02d}: electrodes.tsv written with {matched}/{total} coordinates matched")
     count += 1
@@ -211,9 +214,9 @@ import json as _json
 with open("electrodes.json", "w") as _f:
     _json.dump({
         "name": {"Description": "Electrode name (matches channels.tsv)"},
-        "x": {"Description": "x-coordinate in native T1 space (L axis; 1 mm voxels so values are equivalent to mm)", "Units": "mm"},
-        "y": {"Description": "y-coordinate in native T1 space (I axis; 1 mm voxels so values are equivalent to mm)", "Units": "mm"},
-        "z": {"Description": "z-coordinate in native T1 space (P axis; 1 mm voxels so values are equivalent to mm)", "Units": "mm"},
+        "x": {"Description": "Value from Brain Treebank depth-wm.csv column 'L' (presumably Left axis). Units / origin / template NOT documented in the Brain Treebank release — see coordsystem.json.", "Units": "n/a"},
+        "y": {"Description": "Value from Brain Treebank depth-wm.csv column 'I' (presumably Inferior axis). Units / origin / template NOT documented in the Brain Treebank release.", "Units": "n/a"},
+        "z": {"Description": "Value from Brain Treebank depth-wm.csv column 'P' (presumably Posterior axis). Units / origin / template NOT documented in the Brain Treebank release.", "Units": "n/a"},
         "size": {"Description": "Contact surface area", "Units": "mm^2"},
         "material": {"Description": "Contact material"},
         "hemisphere": {"Description": "Brain hemisphere of the contact (L or R)", "Levels": {"L": "Left", "R": "Right", "n/a": "unknown"}},
@@ -240,9 +243,9 @@ for elec in $(find . -name "*_electrodes.tsv"); do
   cat > "$coord" <<'EOF'
 {
   "iEEGCoordinateSystem": "Other",
-  "iEEGCoordinateUnits": "mm",
-  "iEEGCoordinateSystemDescription": "Electrode positions in each subject's native pre-operative T1 MRI, output by iELVis after co-registration of a post-operative fluoroscopy scan. Coordinates are expressed in the FreeSurfer-conformed 256x256x256 voxel volume at 1 mm isotropic resolution; axes L (Left), I (Inferior), P (Posterior) — a negative-RAS convention. Since voxels are 1 mm isotropic, numerical values can be read as millimetres. To map to standard RAS, flip sign and offset relative to the volume centre at voxel (128, 128, 128): (x_RAS, y_RAS, z_RAS) = (128 - x_L, 128 - y_I, 128 - z_P). Per-subject T1 volumes are NOT distributed with this dataset release; see Brain Treebank localization.zip for source electrode positions and FreeSurfer parcellation labels (Desikan-Killiany, Destrieux, DKT), included here as additional columns in electrodes.tsv.",
-  "iEEGCoordinateProcessingDescription": "Post-operative fluoroscopy scan was co-registered to pre-operative T1 MRI using iELVis (Groppe et al. 2017). Electrodes were manually identified in BioImageSuite and assigned to FreeSurfer atlases (Desikan-Killiany, Destrieux, DKT). For electrodes located in white matter, contacts were projected to the nearest grey/white matter boundary — the ShiftDist column in Brain Treebank's original depth-wm.csv records the projection distance in mm.",
+  "iEEGCoordinateUnits": "n/a",
+  "iEEGCoordinateSystemDescription": "Electrode positions as reported in Brain Treebank's localization.zip, file 'localization/sub_<id>/depth-wm.csv'. The CSV was produced by iELVis (Groppe et al. 2017) + BioImageSuite after co-registering a post-operative fluoroscopy scan to the pre-operative T1 MRI. The axes are labelled L, I, P in the source CSV (presumably Left, Inferior, Posterior), and anatomical region labels come from FreeSurfer parcellations (Desikan-Killiany, Destrieux, DKT) included as extra columns in electrodes.tsv. IMPORTANT: the Brain Treebank release does NOT publish the coordinate units, origin, or the transform to a standard template (MNI, ACPC, ScanRAS, or FreeSurfer surface RAS). Users requiring cross-subject alignment or millimetre distances should consult the original Brain Treebank publication and code release, and/or contact the authors for the co-registration matrices. These coordinates are provided as-is from depth-wm.csv for reproducibility; no transform has been applied in this dataset.",
+  "iEEGCoordinateProcessingDescription": "Post-operative fluoroscopy scan co-registered to pre-operative T1 MRI using iELVis. Electrodes manually identified in BioImageSuite and assigned to FreeSurfer atlases (Desikan-Killiany, Destrieux, DKT). For electrodes located in white matter, contacts were projected to the nearest grey/white matter boundary — the 'ShiftDist' column in the source depth-wm.csv records the projection distance.",
   "iEEGCoordinateProcessingReference": "iELVis — doi:10.1016/j.jneumeth.2017.01.022; Brain Treebank — doi:10.48550/arXiv.2411.08343"
 }
 EOF

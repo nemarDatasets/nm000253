@@ -3,16 +3,16 @@
     "Description": "Electrode name (matches channels.tsv)"
   },
   "x": {
-    "Description": "x-coordinate in native T1 space (L axis; 1 mm voxels so values are equivalent to mm)",
-    "Units": "mm"
+    "Description": "Value from Brain Treebank depth-wm.csv column 'L' (presumably Left axis). Units / origin / template NOT documented in the Brain Treebank release \u2014 see coordsystem.json.",
+    "Units": "n/a"
   },
   "y": {
-    "Description": "y-coordinate in native T1 space (I axis; 1 mm voxels so values are equivalent to mm)",
-    "Units": "mm"
+    "Description": "Value from Brain Treebank depth-wm.csv column 'I' (presumably Inferior axis). Units / origin / template NOT documented in the Brain Treebank release.",
+    "Units": "n/a"
   },
   "z": {
-    "Description": "z-coordinate in native T1 space (P axis; 1 mm voxels so values are equivalent to mm)",
-    "Units": "mm"
+    "Description": "Value from Brain Treebank depth-wm.csv column 'P' (presumably Posterior axis). Units / origin / template NOT documented in the Brain Treebank release.",
+    "Units": "n/a"
   },
   "size": {
     "Description": "Contact surface area",
