@@ -1,6 +1,62 @@
-﻿References
-----------
-Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Höchenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896).https://doi.org/10.21105/joss.01896
+# Brain Treebank: large-scale intracranial (iEEG) recordings from naturalistic language stimuli
 
-Holdgraf, C., Appelhoff, S., Bickel, S., Bouchard, K., D'Ambrosio, S., David, O., … Hermes, D. (2019). iEEG-BIDS, extending the Brain Imaging Data Structure specification to human intracranial electrophysiology. Scientific Data, 6, 102. https://doi.org/10.1038/s41597-019-0105-7
+## Summary
 
+The Brain Treebank is a large-scale dataset of intracranial electrophysiological (iEEG /
+stereo-EEG) recordings collected from **10 epilepsy patients** (at Boston Children's
+Hospital) while they watched Hollywood movies. Recordings were acquired at **2048 Hz**
+from on average **168 electrodes per subject (1,688 electrodes total)**, totalling
+roughly **43 hours across 26 trials** (one trial = one movie). The audio of each movie
+was transcribed and word onsets manually annotated, and each transcript was parsed into
+Universal Dependencies (UD) syntax trees — making this one of the largest datasets of
+intracranial recordings grounded in naturalistic language.
+
+This NEMAR record provides the dataset converted to **BIDS-iEEG** (BrainVision) format:
+each trial is one BIDS run (`task-movie`, `run-01` …), with signals in `sub-*/ieeg/`.
+
+## Modality and paradigm
+
+- **Modality:** Intracranial EEG / stereo-EEG (iEEG-BIDS), 2048 Hz, BrainVision
+  (IEEE_FLOAT_32, multiplexed)
+- **Task / paradigm:** Passive naturalistic viewing of Hollywood movies (`task-movie`),
+  with time-aligned word-level language annotations (transcripts and UD syntax trees in
+  `code/transcripts.zip` and `code/trees.zip`)
+- **Population:** 10 epilepsy patients undergoing intracranial monitoring
+
+## Participants and data structure
+
+- **10 subjects** (`sub-01` … `sub-10`), 26 movie-viewing runs in total.
+- Electrode labels and per-subject electrode information are in each `sub-*/ieeg/`
+  (`electrodes.tsv`, `coordsystem.json`); corrupted electrodes are flagged as `bad` in
+  `channels.tsv` (from the Brain Treebank `corrupted_elec.json`).
+- Electrode coordinates are provided as-is from the Brain Treebank `localization.zip`
+  (`code/localization.zip`); see each `coordsystem.json` for important caveats about
+  units and the absence of a published transform to a standard template.
+
+## Original dataset / data paper
+
+Please cite the original publication when using this dataset:
+
+> Wang, C., Yaari, A. U., Singh, A. K., Subramaniam, V., Rosenfarb, D., DeWitt, J.,
+> Misra, P., Madsen, J. R., Stone, S., Kreiman, G., Katz, B., Cases, I., & Barbu, A.
+> (2024). *Brain Treebank: Large-scale intracranial recordings from naturalistic language
+> stimuli.* Advances in Neural Information Processing Systems 37 (NeurIPS 2024, Datasets
+> and Benchmarks Track). arXiv:2411.08343.
+
+- **Preprint / DOI:** [arXiv:2411.08343](https://doi.org/10.48550/arXiv.2411.08343)
+- **NeurIPS 2024 proceedings:** https://proceedings.neurips.cc/paper_files/paper/2024/hash/aefa2385b3f33abf1526ae4e2c208cd9-Abstract-Datasets_and_Benchmarks_Track.html
+- **Project site / source data:** https://braintreebank.dev/
+- **Original code release:** https://github.com/czlwang/brain_treebank_code_release
+- **Ethics:** Boston Children's Hospital / Harvard IRB; all subjects gave informed consent.
+
+## BIDS conversion
+
+Per-trial HDF5 recordings from braintreebank.dev were converted to BIDS-iEEG (BrainVision)
+with the EEGDash conversion script in `code/convert_braintreebank.py`. Each trial (one
+movie) becomes one BIDS run. EEG-BIDS / MNE-BIDS were used only for standardisation; the
+data themselves are from the original Brain Treebank release. Please credit the original
+creators (Wang et al.) and cite the paper above.
+
+## License
+
+CC BY 4.0 (see `dataset_description.json`).
