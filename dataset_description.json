@@ -1,5 +1,5 @@
 {
-  "Name": "Wang et al. 2024 \u2014 Brain Treebank: Large-scale intracranial recordings from naturalistic language stimuli",
+  "Name": "Wang et al. 2024 — Brain Treebank: Large-scale intracranial recordings from naturalistic language stimuli",
   "BIDSVersion": "1.9.0",
   "HEDVersion": "8.2.0",
   "DatasetType": "raw",
@@ -29,7 +29,7 @@
     "https://braintreebank.dev/",
     "https://github.com/czlwang/brain_treebank_code_release"
   ],
-  "DatasetDOI": "doi:10.48550/arXiv.2411.08343",
+  "DatasetDOI": "10.82901/nemar.nm000253",
   "GeneratedBy": [
     {
       "Name": "convert_braintreebank.py (EEGDash)",
@@ -40,6 +40,10 @@
   "SourceDatasets": [
     {
       "URL": "https://braintreebank.dev/"
+    },
+    {
+      "DOI": "doi:10.48550/arXiv.2411.08343"
     }
-  ]
+  ],
+  "Version": "1.0.0"
 }
