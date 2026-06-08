@@ -1,0 +1,85 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Christopher Wang": {},
+    "Adam Yaari": {},
+    "Aaditya K Singh": {},
+    "Vighnesh Subramaniam": {},
+    "Dana Rosenfarb": {},
+    "Jan DeWitt": {},
+    "Pranav Misra": {},
+    "Joseph R Madsen": {},
+    "Scellig Stone": {},
+    "Gabriel Kreiman": {},
+    "Boris Katz": {},
+    "Ignacio Cases": {},
+    "Andrei Barbu": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.48550/arXiv.2411.08343",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000253",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000253",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "Wang et al. 2024 — Brain Treebank: Large-scale intracranial recordings from naturalistic language stimuli",
+  "license": "CC BY 4.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "545.9 GB (81 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".py",
+    ".sh",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml",
+    ".zip"
+  ],
+  "description": "Brain Treebank is a large-scale intracranial EEG dataset comprising 43 hours of iEEG recordings from 10 epilepsy patients viewing naturalistic Hollywood movies, with 1,688 electrodes sampled at 2048 Hz. The dataset is uniquely grounded in detailed linguistic annotations including word-level transcripts and Universal Dependencies syntax trees, providing a rich resource for studying neural language processing during naturalistic stimulation.",
+  "methods_description": "Intracranial EEG recordings were acquired at 2048 Hz from an average of 168 electrodes per subject during passive viewing of Hollywood movies. Audio transcripts were manually annotated for word onsets and parsed into Universal Dependencies syntax trees. Data were converted to BIDS-iEEG format (BrainVision, IEEE_FLOAT_32, multiplexed) with electrode coordinates and localization information provided per subject.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "stereo-EEG"
+    },
+    {
+      "term": "language processing"
+    },
+    {
+      "term": "naturalistic stimuli"
+    },
+    {
+      "term": "epilepsy"
+    },
+    {
+      "term": "neural recordings"
+    },
+    {
+      "term": "syntax"
+    }
+  ],
+  "source_hash": "c78e6e4485458ee284b03849f09a9465a1d1dd57c0e122a96f6475126a2cd4d3"
+}
