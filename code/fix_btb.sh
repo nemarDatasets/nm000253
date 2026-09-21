@@ -211,6 +211,8 @@ print(f"\n  Total subjects with electrodes.tsv: {count}")
 # Write a root electrodes.json sidecar that declares the extra columns
 # (hemisphere, type, region_desikan, region_destrieux, region_dkt)
 import json as _json
+previous = _json.loads(Path("electrodes.json").read_text()) if Path("electrodes.json").exists() else {}
+barista_fields = {key: previous[key] for key in ("barista_parcel_index", "barista_lobe_index") if key in previous}
 with open("electrodes.json", "w") as _f:
     _json.dump({
         "name": {"Description": "Electrode name (matches channels.tsv)"},
@@ -224,10 +226,14 @@ with open("electrodes.json", "w") as _f:
         "region_desikan": {"Description": "Anatomical region label from the FreeSurfer Desikan-Killiany parcellation"},
         "region_destrieux": {"Description": "Anatomical region label from the FreeSurfer Destrieux parcellation"},
         "region_dkt": {"Description": "Anatomical region label from the FreeSurfer DKT parcellation"},
+        **barista_fields,
     }, _f, indent=2)
     _f.write("\n")
 print("  electrodes.json root sidecar written")
 PYEOF
+if [[ -f code/add_barista_metadata.py ]]; then
+  python3 code/add_barista_metadata.py
+fi
 
 # -------------------------------------------------------------------
 # 3d. Generate _coordsystem.json for each subject with electrodes.tsv
