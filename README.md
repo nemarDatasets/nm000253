@@ -35,6 +35,41 @@ each trial is one BIDS run (`task-movie`, `run-01` …), with signals in `sub-*/
   (`code/localization.zip`); see each `coordsystem.json` for important caveats about
   units and the absence of a published transform to a standard template.
 
+## BaRISTA spatial inputs
+
+The dataset owns the atlas mapping. `electrodes.tsv` now includes
+`barista_parcel_index` (121 slots) and `barista_lobe_index` (21 slots).
+`electrodes.json` records the pinned upstream source and label-to-index tables.
+Index 0 means the source label is missing or outside that table; it is not an
+anatomical assignment. Subject 01 has no matched localization and remains unknown.
+
+After loading a recording as `raw`, align the rows to its channel order:
+
+```python
+import pandas as pd
+from braindecode.models import BaRISTA
+
+electrodes = pd.read_csv("sub-02/ieeg/sub-02_electrodes.tsv", sep="\t")
+electrodes = electrodes.set_index("name").loc[raw.ch_names]
+model = BaRISTA(
+    n_chans=len(raw.ch_names), n_times=6144, n_outputs=2,
+    spatial_scale="parcels",
+    spatial_indices=electrodes["barista_parcel_index"].tolist(),
+)
+```
+
+For lobes, use `spatial_scale="lobes"` and `barista_lobe_index`.
+For coordinates, use `spatial_scale="coords"` and the integer rows from
+`electrodes[["x", "y", "z"]]` as `spatial_indices`, after excluding channels
+with missing coordinates from both the recording and the metadata. These are
+original L/I/P indices in `[0, 200)`: do not negate, rescale, center or clip
+them, or convert them into MNE metre coordinates. No physical-unit or anatomical
+transform is inferred. This supplies spatial indices, not pretrained weights.
+
+Regenerate the derived columns with `python code/add_barista_metadata.py`;
+validate them without writing with `python code/add_barista_metadata.py --check`.
+The script preserves channel names, row order, coordinates and original labels.
+
 ## Original dataset / data paper
 
 Please cite the original publication when using this dataset:

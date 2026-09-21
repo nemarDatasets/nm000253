@@ -1,219 +1,219 @@
-name	x	y	z	size	material	hemisphere	type	region_desikan	region_destrieux	region_dkt
-T2bH1	109	135	131	n/a	n/a	n/a	depth	Right-Hippocampus	Right-Hippocampus	Right-Hippocampus
-T2bH2	106	134	133	n/a	n/a	n/a	depth	Right-Hippocampus	Right-Hippocampus	Right-Hippocampus
-T2bH3	102	133	133	n/a	n/a	n/a	depth	Right-Hippocampus	Right-Hippocampus	Right-Hippocampus
-T2bH4	99	133	135	n/a	n/a	n/a	depth	Right-Hippocampus	Right-Hippocampus	Right-Hippocampus
-T2bH5	96	132	135	n/a	n/a	n/a	depth	Right-Hippocampus	Right-Hippocampus	Right-Hippocampus
-T2bH6	93	132	137	n/a	n/a	R	depth	ctx-rh-parahippocampal	ctx_rh_S_oc-temp_med_and_Lingual	ctx-rh-parahippocampal
-T2bH7	89	131	137	n/a	n/a	R	depth	ctx-rh-fusiform	ctx_rh_S_collat_transv_ant	ctx-rh-fusiform
-T2bH8	86	131	139	n/a	n/a	R	depth	ctx-rh-fusiform	ctx_rh_S_collat_transv_ant	ctx-rh-fusiform
-T2bH9	83	130	139	n/a	n/a	R	depth	ctx-rh-inferiortemporal	ctx_rh_S_collat_transv_ant	ctx-rh-inferiortemporal
-T2bH10	78	129	140	n/a	n/a	R	depth	ctx-rh-inferiortemporal	ctx_rh_S_temporal_inf	ctx-rh-inferiortemporal
-T2bH11	76	129	142	n/a	n/a	R	depth	ctx-rh-inferiortemporal	ctx_rh_S_temporal_inf	ctx-rh-inferiortemporal
-T2bH12	73	129	144	n/a	n/a	R	depth	ctx-rh-inferiortemporal	ctx_rh_S_temporal_inf	ctx-rh-inferiortemporal
-T2bH13	70	129	145	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_G_temporal_middle	ctx-rh-middletemporal
-T2bH14	67	129	146	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_G_temporal_middle	ctx-rh-middletemporal
-T2bH15	63	128	146	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_G_temporal_middle	ctx-rh-middletemporal
-T2bH16	60	128	146	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_G_temporal_middle	ctx-rh-middletemporal
-T2aA1	107	128	124	n/a	n/a	n/a	depth	Right-Amygdala	Right-Amygdala	Right-Amygdala
-T2aA2	104	128	124	n/a	n/a	n/a	depth	Right-Amygdala	Right-Amygdala	Right-Amygdala
-T2aA3	101	129	125	n/a	n/a	n/a	depth	Right-Amygdala	Right-Amygdala	Right-Amygdala
-T2aA4	97	130	125	n/a	n/a	n/a	depth	Right-Amygdala	Right-Amygdala	Right-Amygdala
-T2aA5	93	130	125	n/a	n/a	n/a	depth	Right-Inf-Lat-Vent	Right-Inf-Lat-Vent	Right-Inf-Lat-Vent
-T2aA6	91	131	126	n/a	n/a	n/a	depth	Right-Inf-Lat-Vent	Right-Inf-Lat-Vent	Right-Inf-Lat-Vent
-T2aA7	87	133	127	n/a	n/a	R	depth	ctx-rh-fusiform	ctx_rh_S_collat_transv_ant	ctx-rh-inferiortemporal
-T2aA8	85	134	128	n/a	n/a	R	depth	ctx-rh-fusiform	ctx_rh_S_collat_transv_ant	ctx-rh-inferiortemporal
-T2aA9	79	131	126	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_S_temporal_sup	ctx-rh-middletemporal
-T2aA10	76	132	126	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_S_temporal_sup	ctx-rh-middletemporal
-T2aA11	73	133	127	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_S_temporal_sup	ctx-rh-middletemporal
-T2aA12	70	133	127	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_S_temporal_sup	ctx-rh-middletemporal
-T2aA13	66	134	127	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_G_temporal_middle	ctx-rh-middletemporal
-T2aA14	64	134	127	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_G_temporal_middle	ctx-rh-middletemporal
-T1cIf1	96	104	151	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_Lat_Fis-post	ctx-rh-insula
-T1cIf2	94	104	150	n/a	n/a	R	depth	ctx-rh-transversetemporal	ctx_rh_Lat_Fis-post	ctx-rh-transversetemporal
-T1cIf3	90	103	153	n/a	n/a	R	depth	ctx-rh-transversetemporal	ctx_rh_Lat_Fis-post	ctx-rh-transversetemporal
-T1cIf4	87	103	151	n/a	n/a	R	depth	ctx-rh-transversetemporal	ctx_rh_Lat_Fis-post	ctx-rh-transversetemporal
-T1cIf5	82	107	154	n/a	n/a	R	depth	ctx-rh-bankssts	ctx_rh_S_temporal_sup	ctx-rh-superiortemporal
-T1cIf6	79	106	154	n/a	n/a	R	depth	ctx-rh-bankssts	ctx_rh_S_temporal_sup	ctx-rh-superiortemporal
-T1cIf7	76	105	154	n/a	n/a	R	depth	ctx-rh-bankssts	ctx_rh_S_temporal_sup	ctx-rh-superiortemporal
-T1cIf8	72	104	154	n/a	n/a	R	depth	ctx-rh-bankssts	ctx_rh_S_temporal_sup	ctx-rh-superiortemporal
-T1cIf9	69	104	154	n/a	n/a	R	depth	ctx-rh-bankssts	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal
-T1cIf10	65	103	154	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal
-T1cIf11	62	103	154	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal
-T1cIf12	59	103	154	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal
-T1bId1	86	111	136	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_S_circular_insula_inf	ctx-rh-insula
-T1bId2	83	112	137	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_S_circular_insula_inf	ctx-rh-superiortemporal
-T1bId3	80	112	137	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_S_circular_insula_inf	ctx-rh-superiortemporal
-T1bId4	75	110	137	n/a	n/a	R	depth	ctx-rh-transversetemporal	ctx_rh_S_temporal_transverse	ctx-rh-transversetemporal
-T1bId5	73	111	137	n/a	n/a	R	depth	ctx-rh-transversetemporal	ctx_rh_S_temporal_transverse	ctx-rh-transversetemporal
-T1bId6	69	113	139	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_S_temporal_sup	ctx-rh-superiortemporal
-T1bId7	66	112	138	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal
-T1bId8	62	112	138	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal
-T1bId9	59	112	138	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal
-T1bId10	57	112	138	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal
-T1aIa1	94	113	113	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_G_insular_short	ctx-rh-insula
-T1aIa2	90	113	113	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_G_insular_short	ctx-rh-insula
-T1aIa3	87	113	114	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_G_insular_short	ctx-rh-insula
-T1aIa4	84	114	115	n/a	n/a	n/a	depth	Unknown	Unknown	Unknown
-T1aIa5	80	114	115	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Plan_polar	ctx-rh-superiortemporal
-T1aIa6	77	114	116	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Plan_polar	ctx-rh-superiortemporal
-T1aIa7	74	115	117	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal
-T1aIa8	70	116	117	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal
-T1aIa9	67	116	118	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal
-T1aIa10	65	117	118	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal
-P2cCc1	129	90	166	n/a	n/a	R	depth	ctx-rh-isthmuscingulate	ctx_rh_G_cingul-Post-dorsal	ctx-rh-isthmuscingulate
-P2cCc2	126	90	165	n/a	n/a	R	depth	ctx-rh-isthmuscingulate	ctx_rh_G_cingul-Post-dorsal	ctx-rh-isthmuscingulate
-P2cCc3	120	87	165	n/a	n/a	R	depth	ctx-rh-isthmuscingulate	ctx_rh_S_subparietal	ctx-rh-isthmuscingulate
-P2cCc4	118	86	166	n/a	n/a	R	depth	ctx-rh-precuneus	ctx_rh_S_subparietal	ctx-rh-isthmuscingulate
-P2cCc5	118	86	167	n/a	n/a	R	depth	ctx-rh-precuneus	ctx_rh_S_subparietal	ctx-rh-isthmuscingulate
-P2cCc6	103	85	165	n/a	n/a	R	depth	ctx-rh-superiorparietal	ctx_rh_S_intrapariet_and_P_trans	ctx-rh-superiorparietal
-P2cCc7	102	87	164	n/a	n/a	R	depth	ctx-rh-superiorparietal	ctx_rh_S_intrapariet_and_P_trans	ctx-rh-superiorparietal
-P2cCc8	99	88	163	n/a	n/a	R	depth	ctx-rh-superiorparietal	ctx_rh_S_intrapariet_and_P_trans	ctx-rh-superiorparietal
-P2cCc9	94	87	164	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_S_intrapariet_and_P_trans	ctx-rh-supramarginal
-P2cCc10	91	86	165	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_S_intrapariet_and_P_trans	ctx-rh-supramarginal
-P2cCc11	84	87	161	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_Lat_Fis-post	ctx-rh-supramarginal
-P2cCc12	81	86	161	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_Lat_Fis-post	ctx-rh-supramarginal
-P2cCc13	76	86	162	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_G_temp_sup-Plan_tempo	ctx-rh-supramarginal
-P2cCc14	72	86	161	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_G_temp_sup-Plan_tempo	ctx-rh-supramarginal
-P2cCc15	68	86	160	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_G_temp_sup-Plan_tempo	ctx-rh-supramarginal
-P2cCc16	65	85	161	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_G_pariet_inf-Supramar	ctx-rh-supramarginal
-P2aIe1	95	102	138	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_G_Ins_lg_and_S_cent_ins	ctx-rh-insula
-P2aIe2	92	101	138	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_G_Ins_lg_and_S_cent_ins	ctx-rh-insula
-P2aIe3	90	100	139	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_G_Ins_lg_and_S_cent_ins	ctx-rh-insula
-P2aIe4	85	99	139	n/a	n/a	R	depth	ctx-rh-postcentral	ctx_rh_G_and_S_subcentral	ctx-rh-postcentral
-P2aIe5	83	97	140	n/a	n/a	R	depth	ctx-rh-postcentral	ctx_rh_G_and_S_subcentral	ctx-rh-postcentral
-P2aIe6	80	96	140	n/a	n/a	R	depth	ctx-rh-postcentral	ctx_rh_G_and_S_subcentral	ctx-rh-postcentral
-P2aIe7	76	94	140	n/a	n/a	R	depth	ctx-rh-postcentral	ctx_rh_G_and_S_subcentral	ctx-rh-postcentral
-P2aIe8	73	93	141	n/a	n/a	R	depth	ctx-rh-postcentral	ctx_rh_G_and_S_subcentral	ctx-rh-postcentral
-P2aIe9	70	92	141	n/a	n/a	R	depth	ctx-rh-postcentral	ctx_rh_G_and_S_subcentral	ctx-rh-postcentral
-P2aIe10	66	90	141	n/a	n/a	R	depth	ctx-rh-postcentral	ctx_rh_G_and_S_subcentral	ctx-rh-postcentral
-P2aIe11	62	88	142	n/a	n/a	R	depth	ctx-rh-postcentral	ctx_rh_G_and_S_subcentral	ctx-rh-postcentral
-P2aIe12	60	88	142	n/a	n/a	R	depth	ctx-rh-postcentral	ctx_rh_G_and_S_subcentral	ctx-rh-postcentral
-F3cIc1	91	107	124	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_G_insular_short	ctx-rh-insula
-F3cIc2	87	105	125	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_G_insular_short	ctx-rh-insula
-F3cIc3	84	104	126	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_front_inf-Opercular	ctx-rh-precentral
-F3cIc4	81	104	126	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_front_inf-Opercular	ctx-rh-precentral
-F3cIc5	78	102	127	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_front_inf-Opercular	ctx-rh-precentral
-F3cIc6	75	100	126	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_front_inf-Opercular	ctx-rh-precentral
-F3cIc7	72	99	127	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_and_S_subcentral	ctx-rh-precentral
-F3cIc8	69	98	127	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_and_S_subcentral	ctx-rh-precentral
-F3cIc9	66	96	128	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_and_S_subcentral	ctx-rh-precentral
-F3cIc10	64	95	128	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_and_S_subcentral	ctx-rh-precentral
-F3bIb1	94	106	116	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_S_circular_insula_sup	ctx-rh-insula
-F3bIb2	91	105	116	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_S_circular_insula_sup	ctx-rh-insula
-F3bIb3	88	103	116	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_G_front_inf-Opercular	ctx-rh-parsopercularis
-F3bIb4	85	102	116	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_G_front_inf-Opercular	ctx-rh-parsopercularis
-F3bIb5	81	100	116	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_G_front_inf-Opercular	ctx-rh-parsopercularis
-F3bIb6	78	98	116	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_G_front_inf-Opercular	ctx-rh-parsopercularis
-F3bIb7	75	97	116	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_G_front_inf-Opercular	ctx-rh-parsopercularis
-F3bIb8	71	95	116	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_G_front_inf-Opercular	ctx-rh-parsopercularis
-F3bIb9	68	94	116	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_G_front_inf-Opercular	ctx-rh-parsopercularis
-F3bIb10	66	93	116	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_G_front_inf-Opercular	ctx-rh-parsopercularis
-F3aOFc1	120	126	102	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_rectus	ctx-rh-medialorbitofrontal
-F3aOFc2	118	124	102	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_rectus	ctx-rh-medialorbitofrontal
-F3aOFc3	114	122	102	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_G_orbital	ctx-rh-lateralorbitofrontal
-F3aOFc4	111	120	102	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_G_orbital	ctx-rh-lateralorbitofrontal
-F3aOFc5	107	119	102	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_G_orbital	ctx-rh-lateralorbitofrontal
-F3aOFc6	104	116	102	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital-H_Shaped	ctx-rh-lateralorbitofrontal
-F3aOFc7	99	115	103	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital-H_Shaped	ctx-rh-lateralorbitofrontal
-F3aOFc8	97	114	102	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital-H_Shaped	ctx-rh-lateralorbitofrontal
-F3aOFc9	93	112	104	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_circular_insula_ant	ctx-rh-lateralorbitofrontal
-F3aOFc10	89	110	104	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_circular_insula_ant	ctx-rh-lateralorbitofrontal
-F3aOFc11	86	110	105	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_circular_insula_ant	ctx-rh-parsorbitalis
-F3aOFc12	81	107	103	n/a	n/a	R	depth	ctx-rh-parsorbitalis	ctx_rh_G_orbital	ctx-rh-parsorbitalis
-F3aOFc13	78	106	104	n/a	n/a	R	depth	ctx-rh-parsorbitalis	ctx_rh_G_front_inf-Orbital	ctx-rh-parsorbitalis
-F3aOFc14	74	105	104	n/a	n/a	R	depth	ctx-rh-parsorbitalis	ctx_rh_G_front_inf-Orbital	ctx-rh-parsorbitalis
-F3aOFc15	71	104	104	n/a	n/a	R	depth	ctx-rh-parstriangularis	ctx_rh_G_front_inf-Orbital	ctx-rh-parstriangularis
-F3aOFc16	69	103	104	n/a	n/a	R	depth	ctx-rh-parstriangularis	ctx_rh_G_front_inf-Orbital	ctx-rh-parstriangularis
-P2bIg1	96	95	149	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_Lat_Fis-post	ctx-rh-supramarginal
-P2bIg2	94	93	149	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_Lat_Fis-post	ctx-rh-supramarginal
-P2bIg3	91	92	149	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_Lat_Fis-post	ctx-rh-supramarginal
-P2bIg4	87	89	153	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_Lat_Fis-post	ctx-rh-supramarginal
-P2bIg5	85	88	153	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_Lat_Fis-post	ctx-rh-supramarginal
-P2bIg6	83	87	154	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_G_pariet_inf-Supramar	ctx-rh-supramarginal
-P2bIg7	80	82	153	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_S_postcentral	ctx-rh-supramarginal
-P2bIg8	78	80	153	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_S_postcentral	ctx-rh-supramarginal
-P2bIg9	75	78	154	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_G_pariet_inf-Supramar	ctx-rh-supramarginal
-P2bIg10	73	75	156	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_G_pariet_inf-Supramar	ctx-rh-supramarginal
-P2bIg11	70	73	156	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_G_pariet_inf-Supramar	ctx-rh-supramarginal
-P2bIg12	68	71	156	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_G_pariet_inf-Supramar	ctx-rh-supramarginal
-F2e1	91	83	133	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_S_precentral-inf-part	ctx-rh-caudalmiddlefrontal
-F2e2	89	82	134	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_S_precentral-inf-part	ctx-rh-caudalmiddlefrontal
-F2e3	87	80	133	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_S_precentral-inf-part	ctx-rh-precentral
-F2e4	85	75	133	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_S_precentral-inf-part	ctx-rh-precentral
-F2e5	81	74	133	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_S_precentral-inf-part	ctx-rh-precentral
-F2e6	78	72	133	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_S_precentral-inf-part	ctx-rh-precentral
-F2e7	75	70	133	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_precentral	ctx-rh-precentral
-F2e8	73	68	133	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_precentral	ctx-rh-precentral
-F2c1	93	83	114	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_S_front_inf	ctx-rh-rostralmiddlefrontal
-F2c2	90	82	115	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_S_front_inf	ctx-rh-parsopercularis
-F2c3	87	80	115	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_inf	ctx-rh-caudalmiddlefrontal
-F2c4	84	78	116	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_inf	ctx-rh-caudalmiddlefrontal
-F2c5	81	77	116	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_inf	ctx-rh-caudalmiddlefrontal
-F2c6	78	75	116	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-caudalmiddlefrontal
-F2c7	75	74	117	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-caudalmiddlefrontal
-F2c8	72	72	117	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-caudalmiddlefrontal
-F2aOFb1	119	122	87	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_rectus	ctx-rh-medialorbitofrontal
-F2aOFb2	116	119	88	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_rectus	ctx-rh-medialorbitofrontal
-F2aOFb3	113	116	89	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_S_orbital_med-olfact	ctx-rh-medialorbitofrontal
-F2aOFb4	110	114	90	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital_med-olfact	ctx-rh-lateralorbitofrontal
-F2aOFb5	106	112	90	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital-H_Shaped	ctx-rh-lateralorbitofrontal
-F2aOFb6	101	109	95	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital-H_Shaped	ctx-rh-lateralorbitofrontal
-F2aOFb7	99	107	95	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital-H_Shaped	ctx-rh-lateralorbitofrontal
-F2aOFb8	95	105	96	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital-H_Shaped	ctx-rh-lateralorbitofrontal
-F2aOFb9	90	96	93	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_orbital_lateral	ctx-rh-rostralmiddlefrontal
-F2aOFb10	89	95	94	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_inf	ctx-rh-parstriangularis
-F2aOFb11	87	93	96	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_inf	ctx-rh-parstriangularis
-F2aOFb12	84	90	97	n/a	n/a	R	depth	ctx-rh-parstriangularis	ctx_rh_S_front_inf	ctx-rh-parstriangularis
-F2aOFb13	80	87	98	n/a	n/a	R	depth	ctx-rh-parstriangularis	ctx_rh_S_front_inf	ctx-rh-parstriangularis
-F2aOFb14	77	84	99	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_inf	ctx-rh-rostralmiddlefrontal
-F2aOFb15	74	81	100	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-rostralmiddlefrontal
-F2aOFb16	71	78	101	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-rostralmiddlefrontal
-F2dCb1	122	82	118	n/a	n/a	R	depth	ctx-rh-caudalanteriorcingulate	ctx_rh_G_and_S_cingul-Mid-Ant	ctx-rh-caudalanteriorcingulate
-F2dCb2	119	81	119	n/a	n/a	R	depth	ctx-rh-caudalanteriorcingulate	ctx_rh_S_pericallosal	ctx-rh-caudalanteriorcingulate
-F2dCb3	116	77	118	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_and_S_cingul-Mid-Ant	ctx-rh-caudalanteriorcingulate
-F2dCb4	114	75	118	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_and_S_cingul-Mid-Ant	ctx-rh-superiorfrontal
-F2dCb5	112	72	118	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_and_S_cingul-Mid-Ant	ctx-rh-superiorfrontal
-F2dCb6	105	69	121	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_S_front_sup	ctx-rh-superiorfrontal
-F2dCb7	104	68	120	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_S_front_sup	ctx-rh-superiorfrontal
-F2dCb8	101	68	118	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_S_front_sup	ctx-rh-caudalmiddlefrontal
-F2dCb9	98	66	118	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_S_front_sup	ctx-rh-caudalmiddlefrontal
-F2dCb10	94	64	118	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_S_front_sup	ctx-rh-caudalmiddlefrontal
-F2dCb11	93	62	117	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-caudalmiddlefrontal
-F2dCb12	89	60	118	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-caudalmiddlefrontal
-F2dCb13	86	58	118	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-caudalmiddlefrontal
-F2dCb14	83	56	118	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-caudalmiddlefrontal
-F2bCa1	116	109	86	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_S_suborbital	ctx-rh-medialorbitofrontal
-F2bCa2	114	106	86	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-medialorbitofrontal
-F2bCa3	112	103	87	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal
-F2bCa4	110	100	87	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal
-F2bCa5	109	98	88	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-rostralanteriorcingulate
-F2bCa6	107	95	89	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal
-F2bCa7	105	92	88	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal
-F2bCa8	105	90	87	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal
-F2bCa9	99	86	89	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_middle	ctx-rh-rostralmiddlefrontal
-F2bCa10	99	83	90	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_middle	ctx-rh-rostralmiddlefrontal
-F2bCa11	98	81	90	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_middle	ctx-rh-rostralmiddlefrontal
-F2bCa12	96	78	91	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_middle	ctx-rh-rostralmiddlefrontal
-F2bCa13	94	75	92	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_middle	ctx-rh-rostralmiddlefrontal
-F2bCa14	92	72	92	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_middle	ctx-rh-rostralmiddlefrontal
-F2bCa15	90	69	92	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-rostralmiddlefrontal
-F2bCa16	88	66	92	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-rostralmiddlefrontal
-F1x0Fa1	102	112	82	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_G_orbital	ctx-rh-lateralorbitofrontal
-F1x0Fa2	103	109	83	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital-H_Shaped	ctx-rh-lateralorbitofrontal
-F1x0Fa3	103	107	83	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital-H_Shaped	ctx-rh-lateralorbitofrontal
-F1x0Fa4	101	101	83	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_G_and_S_frontomargin	ctx-rh-superiorfrontal
-F1x0Fa5	105	98	84	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal
-F1x0Fa6	104	96	83	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal
-F1x0Fa7	104	93	83	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal
-F1x0Fa8	105	89	83	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal
-F1x0Fa9	106	87	83	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal
-F1x0Fa10	104	80	83	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_middle	ctx-rh-superiorfrontal
-F1x0Fa11	106	79	83	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_middle	ctx-rh-superiorfrontal
-F1x0Fa12	107	76	84	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_middle	ctx-rh-superiorfrontal
-F1x0Fa13	107	73	84	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_front_sup	ctx-rh-superiorfrontal
-F1x0Fa14	108	70	84	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_front_sup	ctx-rh-superiorfrontal
-F1x0Fa15	109	66	84	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_front_sup	ctx-rh-superiorfrontal
-F1x0Fa16	109	63	84	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_front_sup	ctx-rh-superiorfrontal
-DC10	n/a	n/a	n/a	n/a	n/a	n/a	depth	n/a	n/a	n/a
-DC4	n/a	n/a	n/a	n/a	n/a	n/a	depth	n/a	n/a	n/a
+name	x	y	z	size	material	hemisphere	type	region_desikan	region_destrieux	region_dkt	barista_parcel_index	barista_lobe_index
+T2bH1	109	135	131	n/a	n/a	n/a	depth	Right-Hippocampus	Right-Hippocampus	Right-Hippocampus	6	4
+T2bH2	106	134	133	n/a	n/a	n/a	depth	Right-Hippocampus	Right-Hippocampus	Right-Hippocampus	6	4
+T2bH3	102	133	133	n/a	n/a	n/a	depth	Right-Hippocampus	Right-Hippocampus	Right-Hippocampus	6	4
+T2bH4	99	133	135	n/a	n/a	n/a	depth	Right-Hippocampus	Right-Hippocampus	Right-Hippocampus	6	4
+T2bH5	96	132	135	n/a	n/a	n/a	depth	Right-Hippocampus	Right-Hippocampus	Right-Hippocampus	6	4
+T2bH6	93	132	137	n/a	n/a	R	depth	ctx-rh-parahippocampal	ctx_rh_S_oc-temp_med_and_Lingual	ctx-rh-parahippocampal	108	10
+T2bH7	89	131	137	n/a	n/a	R	depth	ctx-rh-fusiform	ctx_rh_S_collat_transv_ant	ctx-rh-fusiform	102	10
+T2bH8	86	131	139	n/a	n/a	R	depth	ctx-rh-fusiform	ctx_rh_S_collat_transv_ant	ctx-rh-fusiform	102	10
+T2bH9	83	130	139	n/a	n/a	R	depth	ctx-rh-inferiortemporal	ctx_rh_S_collat_transv_ant	ctx-rh-inferiortemporal	102	10
+T2bH10	78	129	140	n/a	n/a	R	depth	ctx-rh-inferiortemporal	ctx_rh_S_temporal_inf	ctx-rh-inferiortemporal	118	10
+T2bH11	76	129	142	n/a	n/a	R	depth	ctx-rh-inferiortemporal	ctx_rh_S_temporal_inf	ctx-rh-inferiortemporal	118	10
+T2bH12	73	129	144	n/a	n/a	R	depth	ctx-rh-inferiortemporal	ctx_rh_S_temporal_inf	ctx-rh-inferiortemporal	118	10
+T2bH13	70	129	145	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_G_temporal_middle	ctx-rh-middletemporal	92	10
+T2bH14	67	129	146	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_G_temporal_middle	ctx-rh-middletemporal	92	10
+T2bH15	63	128	146	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_G_temporal_middle	ctx-rh-middletemporal	92	10
+T2bH16	60	128	146	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_G_temporal_middle	ctx-rh-middletemporal	92	10
+T2aA1	107	128	124	n/a	n/a	n/a	depth	Right-Amygdala	Right-Amygdala	Right-Amygdala	5	2
+T2aA2	104	128	124	n/a	n/a	n/a	depth	Right-Amygdala	Right-Amygdala	Right-Amygdala	5	2
+T2aA3	101	129	125	n/a	n/a	n/a	depth	Right-Amygdala	Right-Amygdala	Right-Amygdala	5	2
+T2aA4	97	130	125	n/a	n/a	n/a	depth	Right-Amygdala	Right-Amygdala	Right-Amygdala	5	2
+T2aA5	93	130	125	n/a	n/a	n/a	depth	Right-Inf-Lat-Vent	Right-Inf-Lat-Vent	Right-Inf-Lat-Vent	7	20
+T2aA6	91	131	126	n/a	n/a	n/a	depth	Right-Inf-Lat-Vent	Right-Inf-Lat-Vent	Right-Inf-Lat-Vent	7	20
+T2aA7	87	133	127	n/a	n/a	R	depth	ctx-rh-fusiform	ctx_rh_S_collat_transv_ant	ctx-rh-inferiortemporal	102	10
+T2aA8	85	134	128	n/a	n/a	R	depth	ctx-rh-fusiform	ctx_rh_S_collat_transv_ant	ctx-rh-inferiortemporal	102	10
+T2aA9	79	131	126	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_S_temporal_sup	ctx-rh-middletemporal	119	10
+T2aA10	76	132	126	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_S_temporal_sup	ctx-rh-middletemporal	119	10
+T2aA11	73	133	127	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_S_temporal_sup	ctx-rh-middletemporal	119	10
+T2aA12	70	133	127	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_S_temporal_sup	ctx-rh-middletemporal	119	10
+T2aA13	66	134	127	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_G_temporal_middle	ctx-rh-middletemporal	92	10
+T2aA14	64	134	127	n/a	n/a	R	depth	ctx-rh-middletemporal	ctx_rh_G_temporal_middle	ctx-rh-middletemporal	92	10
+T1cIf1	96	104	151	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_Lat_Fis-post	ctx-rh-insula	95	16
+T1cIf2	94	104	150	n/a	n/a	R	depth	ctx-rh-transversetemporal	ctx_rh_Lat_Fis-post	ctx-rh-transversetemporal	95	10
+T1cIf3	90	103	153	n/a	n/a	R	depth	ctx-rh-transversetemporal	ctx_rh_Lat_Fis-post	ctx-rh-transversetemporal	95	10
+T1cIf4	87	103	151	n/a	n/a	R	depth	ctx-rh-transversetemporal	ctx_rh_Lat_Fis-post	ctx-rh-transversetemporal	95	10
+T1cIf5	82	107	154	n/a	n/a	R	depth	ctx-rh-bankssts	ctx_rh_S_temporal_sup	ctx-rh-superiortemporal	119	10
+T1cIf6	79	106	154	n/a	n/a	R	depth	ctx-rh-bankssts	ctx_rh_S_temporal_sup	ctx-rh-superiortemporal	119	10
+T1cIf7	76	105	154	n/a	n/a	R	depth	ctx-rh-bankssts	ctx_rh_S_temporal_sup	ctx-rh-superiortemporal	119	10
+T1cIf8	72	104	154	n/a	n/a	R	depth	ctx-rh-bankssts	ctx_rh_S_temporal_sup	ctx-rh-superiortemporal	119	10
+T1cIf9	69	104	154	n/a	n/a	R	depth	ctx-rh-bankssts	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal	88	10
+T1cIf10	65	103	154	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal	88	10
+T1cIf11	62	103	154	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal	88	10
+T1cIf12	59	103	154	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal	88	10
+T1bId1	86	111	136	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_S_circular_insula_inf	ctx-rh-insula	100	16
+T1bId2	83	112	137	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_S_circular_insula_inf	ctx-rh-superiortemporal	100	10
+T1bId3	80	112	137	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_S_circular_insula_inf	ctx-rh-superiortemporal	100	10
+T1bId4	75	110	137	n/a	n/a	R	depth	ctx-rh-transversetemporal	ctx_rh_S_temporal_transverse	ctx-rh-transversetemporal	120	10
+T1bId5	73	111	137	n/a	n/a	R	depth	ctx-rh-transversetemporal	ctx_rh_S_temporal_transverse	ctx-rh-transversetemporal	120	10
+T1bId6	69	113	139	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_S_temporal_sup	ctx-rh-superiortemporal	119	10
+T1bId7	66	112	138	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal	88	10
+T1bId8	62	112	138	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal	88	10
+T1bId9	59	112	138	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal	88	10
+T1bId10	57	112	138	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal	88	10
+T1aIa1	94	113	113	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_G_insular_short	ctx-rh-insula	79	16
+T1aIa2	90	113	113	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_G_insular_short	ctx-rh-insula	79	16
+T1aIa3	87	113	114	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_G_insular_short	ctx-rh-insula	79	16
+T1aIa4	84	114	115	n/a	n/a	n/a	depth	Unknown	Unknown	Unknown	0	0
+T1aIa5	80	114	115	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Plan_polar	ctx-rh-superiortemporal	89	10
+T1aIa6	77	114	116	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Plan_polar	ctx-rh-superiortemporal	89	10
+T1aIa7	74	115	117	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal	88	10
+T1aIa8	70	116	117	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal	88	10
+T1aIa9	67	116	118	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal	88	10
+T1aIa10	65	117	118	n/a	n/a	R	depth	ctx-rh-superiortemporal	ctx_rh_G_temp_sup-Lateral	ctx-rh-superiortemporal	88	10
+P2cCc1	129	90	166	n/a	n/a	R	depth	ctx-rh-isthmuscingulate	ctx_rh_G_cingul-Post-dorsal	ctx-rh-isthmuscingulate	73	14
+P2cCc2	126	90	165	n/a	n/a	R	depth	ctx-rh-isthmuscingulate	ctx_rh_G_cingul-Post-dorsal	ctx-rh-isthmuscingulate	73	14
+P2cCc3	120	87	165	n/a	n/a	R	depth	ctx-rh-isthmuscingulate	ctx_rh_S_subparietal	ctx-rh-isthmuscingulate	117	14
+P2cCc4	118	86	166	n/a	n/a	R	depth	ctx-rh-precuneus	ctx_rh_S_subparietal	ctx-rh-isthmuscingulate	117	8
+P2cCc5	118	86	167	n/a	n/a	R	depth	ctx-rh-precuneus	ctx_rh_S_subparietal	ctx-rh-isthmuscingulate	117	8
+P2cCc6	103	85	165	n/a	n/a	R	depth	ctx-rh-superiorparietal	ctx_rh_S_intrapariet_and_P_trans	ctx-rh-superiorparietal	106	8
+P2cCc7	102	87	164	n/a	n/a	R	depth	ctx-rh-superiorparietal	ctx_rh_S_intrapariet_and_P_trans	ctx-rh-superiorparietal	106	8
+P2cCc8	99	88	163	n/a	n/a	R	depth	ctx-rh-superiorparietal	ctx_rh_S_intrapariet_and_P_trans	ctx-rh-superiorparietal	106	8
+P2cCc9	94	87	164	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_S_intrapariet_and_P_trans	ctx-rh-supramarginal	106	8
+P2cCc10	91	86	165	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_S_intrapariet_and_P_trans	ctx-rh-supramarginal	106	8
+P2cCc11	84	87	161	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_Lat_Fis-post	ctx-rh-supramarginal	95	8
+P2cCc12	81	86	161	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_Lat_Fis-post	ctx-rh-supramarginal	95	8
+P2cCc13	76	86	162	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_G_temp_sup-Plan_tempo	ctx-rh-supramarginal	90	8
+P2cCc14	72	86	161	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_G_temp_sup-Plan_tempo	ctx-rh-supramarginal	90	8
+P2cCc15	68	86	160	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_G_temp_sup-Plan_tempo	ctx-rh-supramarginal	90	8
+P2cCc16	65	85	161	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_G_pariet_inf-Supramar	ctx-rh-supramarginal	84	8
+P2aIe1	95	102	138	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_G_Ins_lg_and_S_cent_ins	ctx-rh-insula	66	16
+P2aIe2	92	101	138	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_G_Ins_lg_and_S_cent_ins	ctx-rh-insula	66	16
+P2aIe3	90	100	139	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_G_Ins_lg_and_S_cent_ins	ctx-rh-insula	66	16
+P2aIe4	85	99	139	n/a	n/a	R	depth	ctx-rh-postcentral	ctx_rh_G_and_S_subcentral	ctx-rh-postcentral	72	8
+P2aIe5	83	97	140	n/a	n/a	R	depth	ctx-rh-postcentral	ctx_rh_G_and_S_subcentral	ctx-rh-postcentral	72	8
+P2aIe6	80	96	140	n/a	n/a	R	depth	ctx-rh-postcentral	ctx_rh_G_and_S_subcentral	ctx-rh-postcentral	72	8
+P2aIe7	76	94	140	n/a	n/a	R	depth	ctx-rh-postcentral	ctx_rh_G_and_S_subcentral	ctx-rh-postcentral	72	8
+P2aIe8	73	93	141	n/a	n/a	R	depth	ctx-rh-postcentral	ctx_rh_G_and_S_subcentral	ctx-rh-postcentral	72	8
+P2aIe9	70	92	141	n/a	n/a	R	depth	ctx-rh-postcentral	ctx_rh_G_and_S_subcentral	ctx-rh-postcentral	72	8
+P2aIe10	66	90	141	n/a	n/a	R	depth	ctx-rh-postcentral	ctx_rh_G_and_S_subcentral	ctx-rh-postcentral	72	8
+P2aIe11	62	88	142	n/a	n/a	R	depth	ctx-rh-postcentral	ctx_rh_G_and_S_subcentral	ctx-rh-postcentral	72	8
+P2aIe12	60	88	142	n/a	n/a	R	depth	ctx-rh-postcentral	ctx_rh_G_and_S_subcentral	ctx-rh-postcentral	72	8
+F3cIc1	91	107	124	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_G_insular_short	ctx-rh-insula	79	16
+F3cIc2	87	105	125	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_G_insular_short	ctx-rh-insula	79	16
+F3cIc3	84	104	126	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_front_inf-Opercular	ctx-rh-precentral	74	6
+F3cIc4	81	104	126	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_front_inf-Opercular	ctx-rh-precentral	74	6
+F3cIc5	78	102	127	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_front_inf-Opercular	ctx-rh-precentral	74	6
+F3cIc6	75	100	126	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_front_inf-Opercular	ctx-rh-precentral	74	6
+F3cIc7	72	99	127	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_and_S_subcentral	ctx-rh-precentral	72	6
+F3cIc8	69	98	127	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_and_S_subcentral	ctx-rh-precentral	72	6
+F3cIc9	66	96	128	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_and_S_subcentral	ctx-rh-precentral	72	6
+F3cIc10	64	95	128	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_and_S_subcentral	ctx-rh-precentral	72	6
+F3bIb1	94	106	116	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_S_circular_insula_sup	ctx-rh-insula	101	16
+F3bIb2	91	105	116	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_S_circular_insula_sup	ctx-rh-insula	101	16
+F3bIb3	88	103	116	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_G_front_inf-Opercular	ctx-rh-parsopercularis	74	6
+F3bIb4	85	102	116	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_G_front_inf-Opercular	ctx-rh-parsopercularis	74	6
+F3bIb5	81	100	116	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_G_front_inf-Opercular	ctx-rh-parsopercularis	74	6
+F3bIb6	78	98	116	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_G_front_inf-Opercular	ctx-rh-parsopercularis	74	6
+F3bIb7	75	97	116	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_G_front_inf-Opercular	ctx-rh-parsopercularis	74	6
+F3bIb8	71	95	116	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_G_front_inf-Opercular	ctx-rh-parsopercularis	74	6
+F3bIb9	68	94	116	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_G_front_inf-Opercular	ctx-rh-parsopercularis	74	6
+F3bIb10	66	93	116	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_G_front_inf-Opercular	ctx-rh-parsopercularis	74	6
+F3aOFc1	120	126	102	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_rectus	ctx-rh-medialorbitofrontal	86	6
+F3aOFc2	118	124	102	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_rectus	ctx-rh-medialorbitofrontal	86	6
+F3aOFc3	114	122	102	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_G_orbital	ctx-rh-lateralorbitofrontal	82	6
+F3aOFc4	111	120	102	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_G_orbital	ctx-rh-lateralorbitofrontal	82	6
+F3aOFc5	107	119	102	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_G_orbital	ctx-rh-lateralorbitofrontal	82	6
+F3aOFc6	104	116	102	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital-H_Shaped	ctx-rh-lateralorbitofrontal	109	6
+F3aOFc7	99	115	103	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital-H_Shaped	ctx-rh-lateralorbitofrontal	109	6
+F3aOFc8	97	114	102	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital-H_Shaped	ctx-rh-lateralorbitofrontal	109	6
+F3aOFc9	93	112	104	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_circular_insula_ant	ctx-rh-lateralorbitofrontal	99	6
+F3aOFc10	89	110	104	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_circular_insula_ant	ctx-rh-lateralorbitofrontal	99	6
+F3aOFc11	86	110	105	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_circular_insula_ant	ctx-rh-parsorbitalis	99	6
+F3aOFc12	81	107	103	n/a	n/a	R	depth	ctx-rh-parsorbitalis	ctx_rh_G_orbital	ctx-rh-parsorbitalis	82	6
+F3aOFc13	78	106	104	n/a	n/a	R	depth	ctx-rh-parsorbitalis	ctx_rh_G_front_inf-Orbital	ctx-rh-parsorbitalis	75	6
+F3aOFc14	74	105	104	n/a	n/a	R	depth	ctx-rh-parsorbitalis	ctx_rh_G_front_inf-Orbital	ctx-rh-parsorbitalis	75	6
+F3aOFc15	71	104	104	n/a	n/a	R	depth	ctx-rh-parstriangularis	ctx_rh_G_front_inf-Orbital	ctx-rh-parstriangularis	75	6
+F3aOFc16	69	103	104	n/a	n/a	R	depth	ctx-rh-parstriangularis	ctx_rh_G_front_inf-Orbital	ctx-rh-parstriangularis	75	6
+P2bIg1	96	95	149	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_Lat_Fis-post	ctx-rh-supramarginal	95	8
+P2bIg2	94	93	149	n/a	n/a	R	depth	ctx-rh-insula	ctx_rh_Lat_Fis-post	ctx-rh-supramarginal	95	16
+P2bIg3	91	92	149	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_Lat_Fis-post	ctx-rh-supramarginal	95	8
+P2bIg4	87	89	153	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_Lat_Fis-post	ctx-rh-supramarginal	95	8
+P2bIg5	85	88	153	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_Lat_Fis-post	ctx-rh-supramarginal	95	8
+P2bIg6	83	87	154	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_G_pariet_inf-Supramar	ctx-rh-supramarginal	84	8
+P2bIg7	80	82	153	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_S_postcentral	ctx-rh-supramarginal	113	8
+P2bIg8	78	80	153	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_S_postcentral	ctx-rh-supramarginal	113	8
+P2bIg9	75	78	154	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_G_pariet_inf-Supramar	ctx-rh-supramarginal	84	8
+P2bIg10	73	75	156	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_G_pariet_inf-Supramar	ctx-rh-supramarginal	84	8
+P2bIg11	70	73	156	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_G_pariet_inf-Supramar	ctx-rh-supramarginal	84	8
+P2bIg12	68	71	156	n/a	n/a	R	depth	ctx-rh-supramarginal	ctx_rh_G_pariet_inf-Supramar	ctx-rh-supramarginal	84	8
+F2e1	91	83	133	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_S_precentral-inf-part	ctx-rh-caudalmiddlefrontal	114	6
+F2e2	89	82	134	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_S_precentral-inf-part	ctx-rh-caudalmiddlefrontal	114	6
+F2e3	87	80	133	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_S_precentral-inf-part	ctx-rh-precentral	114	6
+F2e4	85	75	133	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_S_precentral-inf-part	ctx-rh-precentral	114	6
+F2e5	81	74	133	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_S_precentral-inf-part	ctx-rh-precentral	114	6
+F2e6	78	72	133	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_S_precentral-inf-part	ctx-rh-precentral	114	6
+F2e7	75	70	133	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_precentral	ctx-rh-precentral	85	6
+F2e8	73	68	133	n/a	n/a	R	depth	ctx-rh-precentral	ctx_rh_G_precentral	ctx-rh-precentral	85	6
+F2c1	93	83	114	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_S_front_inf	ctx-rh-rostralmiddlefrontal	103	6
+F2c2	90	82	115	n/a	n/a	R	depth	ctx-rh-parsopercularis	ctx_rh_S_front_inf	ctx-rh-parsopercularis	103	6
+F2c3	87	80	115	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_inf	ctx-rh-caudalmiddlefrontal	103	6
+F2c4	84	78	116	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_inf	ctx-rh-caudalmiddlefrontal	103	6
+F2c5	81	77	116	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_inf	ctx-rh-caudalmiddlefrontal	103	6
+F2c6	78	75	116	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-caudalmiddlefrontal	77	6
+F2c7	75	74	117	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-caudalmiddlefrontal	77	6
+F2c8	72	72	117	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-caudalmiddlefrontal	77	6
+F2aOFb1	119	122	87	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_rectus	ctx-rh-medialorbitofrontal	86	6
+F2aOFb2	116	119	88	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_rectus	ctx-rh-medialorbitofrontal	86	6
+F2aOFb3	113	116	89	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_S_orbital_med-olfact	ctx-rh-medialorbitofrontal	111	6
+F2aOFb4	110	114	90	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital_med-olfact	ctx-rh-lateralorbitofrontal	111	6
+F2aOFb5	106	112	90	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital-H_Shaped	ctx-rh-lateralorbitofrontal	109	6
+F2aOFb6	101	109	95	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital-H_Shaped	ctx-rh-lateralorbitofrontal	109	6
+F2aOFb7	99	107	95	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital-H_Shaped	ctx-rh-lateralorbitofrontal	109	6
+F2aOFb8	95	105	96	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital-H_Shaped	ctx-rh-lateralorbitofrontal	109	6
+F2aOFb9	90	96	93	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_orbital_lateral	ctx-rh-rostralmiddlefrontal	110	6
+F2aOFb10	89	95	94	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_inf	ctx-rh-parstriangularis	103	6
+F2aOFb11	87	93	96	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_inf	ctx-rh-parstriangularis	103	6
+F2aOFb12	84	90	97	n/a	n/a	R	depth	ctx-rh-parstriangularis	ctx_rh_S_front_inf	ctx-rh-parstriangularis	103	6
+F2aOFb13	80	87	98	n/a	n/a	R	depth	ctx-rh-parstriangularis	ctx_rh_S_front_inf	ctx-rh-parstriangularis	103	6
+F2aOFb14	77	84	99	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_inf	ctx-rh-rostralmiddlefrontal	103	6
+F2aOFb15	74	81	100	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-rostralmiddlefrontal	77	6
+F2aOFb16	71	78	101	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-rostralmiddlefrontal	77	6
+F2dCb1	122	82	118	n/a	n/a	R	depth	ctx-rh-caudalanteriorcingulate	ctx_rh_G_and_S_cingul-Mid-Ant	ctx-rh-caudalanteriorcingulate	68	14
+F2dCb2	119	81	119	n/a	n/a	R	depth	ctx-rh-caudalanteriorcingulate	ctx_rh_S_pericallosal	ctx-rh-caudalanteriorcingulate	112	14
+F2dCb3	116	77	118	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_and_S_cingul-Mid-Ant	ctx-rh-caudalanteriorcingulate	68	6
+F2dCb4	114	75	118	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_and_S_cingul-Mid-Ant	ctx-rh-superiorfrontal	68	6
+F2dCb5	112	72	118	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_and_S_cingul-Mid-Ant	ctx-rh-superiorfrontal	68	6
+F2dCb6	105	69	121	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_S_front_sup	ctx-rh-superiorfrontal	105	6
+F2dCb7	104	68	120	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_S_front_sup	ctx-rh-superiorfrontal	105	6
+F2dCb8	101	68	118	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_S_front_sup	ctx-rh-caudalmiddlefrontal	105	6
+F2dCb9	98	66	118	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_S_front_sup	ctx-rh-caudalmiddlefrontal	105	6
+F2dCb10	94	64	118	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_S_front_sup	ctx-rh-caudalmiddlefrontal	105	6
+F2dCb11	93	62	117	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-caudalmiddlefrontal	77	6
+F2dCb12	89	60	118	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-caudalmiddlefrontal	77	6
+F2dCb13	86	58	118	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-caudalmiddlefrontal	77	6
+F2dCb14	83	56	118	n/a	n/a	R	depth	ctx-rh-caudalmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-caudalmiddlefrontal	77	6
+F2bCa1	116	109	86	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_S_suborbital	ctx-rh-medialorbitofrontal	116	6
+F2bCa2	114	106	86	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-medialorbitofrontal	67	6
+F2bCa3	112	103	87	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal	67	6
+F2bCa4	110	100	87	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal	67	6
+F2bCa5	109	98	88	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-rostralanteriorcingulate	67	6
+F2bCa6	107	95	89	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal	67	6
+F2bCa7	105	92	88	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal	67	6
+F2bCa8	105	90	87	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal	67	6
+F2bCa9	99	86	89	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_middle	ctx-rh-rostralmiddlefrontal	104	6
+F2bCa10	99	83	90	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_middle	ctx-rh-rostralmiddlefrontal	104	6
+F2bCa11	98	81	90	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_middle	ctx-rh-rostralmiddlefrontal	104	6
+F2bCa12	96	78	91	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_middle	ctx-rh-rostralmiddlefrontal	104	6
+F2bCa13	94	75	92	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_middle	ctx-rh-rostralmiddlefrontal	104	6
+F2bCa14	92	72	92	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_middle	ctx-rh-rostralmiddlefrontal	104	6
+F2bCa15	90	69	92	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-rostralmiddlefrontal	77	6
+F2bCa16	88	66	92	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_G_front_middle	ctx-rh-rostralmiddlefrontal	77	6
+F1x0Fa1	102	112	82	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_G_orbital	ctx-rh-lateralorbitofrontal	82	6
+F1x0Fa2	103	109	83	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital-H_Shaped	ctx-rh-lateralorbitofrontal	109	6
+F1x0Fa3	103	107	83	n/a	n/a	R	depth	ctx-rh-lateralorbitofrontal	ctx_rh_S_orbital-H_Shaped	ctx-rh-lateralorbitofrontal	109	6
+F1x0Fa4	101	101	83	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_G_and_S_frontomargin	ctx-rh-superiorfrontal	70	6
+F1x0Fa5	105	98	84	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal	67	6
+F1x0Fa6	104	96	83	n/a	n/a	R	depth	ctx-rh-medialorbitofrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal	67	6
+F1x0Fa7	104	93	83	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal	67	6
+F1x0Fa8	105	89	83	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal	67	6
+F1x0Fa9	106	87	83	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_and_S_cingul-Ant	ctx-rh-superiorfrontal	67	6
+F1x0Fa10	104	80	83	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_middle	ctx-rh-superiorfrontal	104	6
+F1x0Fa11	106	79	83	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_middle	ctx-rh-superiorfrontal	104	6
+F1x0Fa12	107	76	84	n/a	n/a	R	depth	ctx-rh-rostralmiddlefrontal	ctx_rh_S_front_middle	ctx-rh-superiorfrontal	104	6
+F1x0Fa13	107	73	84	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_front_sup	ctx-rh-superiorfrontal	78	6
+F1x0Fa14	108	70	84	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_front_sup	ctx-rh-superiorfrontal	78	6
+F1x0Fa15	109	66	84	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_front_sup	ctx-rh-superiorfrontal	78	6
+F1x0Fa16	109	63	84	n/a	n/a	R	depth	ctx-rh-superiorfrontal	ctx_rh_G_front_sup	ctx-rh-superiorfrontal	78	6
+DC10	n/a	n/a	n/a	n/a	n/a	n/a	depth	n/a	n/a	n/a	0	0
+DC4	n/a	n/a	n/a	n/a	n/a	n/a	depth	n/a	n/a	n/a	0	0
