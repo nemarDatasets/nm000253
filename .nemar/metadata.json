@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Wang et al. 2024 — Brain Treebank: Large-scale intracranial recordings from naturalistic language stimuli",
-  "description": "The Brain Treebank is a large-scale dataset of intracranial (stereo-EEG) recordings collected from 10 epilepsy patients at Boston Children's Hospital while they watched Hollywood movies. Recordings were acquired at 2048 Hz from an average of 168 electrodes per subject (1,688 total), spanning roughly 43 hours across 26 movie-viewing trials. Movie audio was transcribed with manually annotated word onsets and parsed into Universal Dependencies syntax trees, making this dataset one of the largest intracranial recording collections grounded in naturalistic language processing. This NEMAR record provides the dataset converted to BIDS-iEEG (BrainVision) format.",
-  "methods_description": "Intracranial stereo-EEG recordings were acquired at 2048 Hz from electrodes implanted for clinical epilepsy monitoring while patients passively viewed Hollywood movies. Movie audio was transcribed with manual word-onset annotation and parsed into Universal Dependencies syntax trees. Per-trial HDF5 recordings were converted to BIDS-iEEG BrainVision format using the EEGDash conversion script, with each movie trial becoming one BIDS run; electrode labels and corrupted channel flags were derived from the original Brain Treebank metadata.",
+  "description": "The Brain Treebank is a large-scale intracranial EEG (stereo-EEG) dataset recorded at 2048 Hz from 10 epilepsy patients while they watched Hollywood movies, totalling about 43 hours across 26 trials. Movie audio was transcribed with manually annotated word onsets, and transcripts were parsed into Universal Dependencies syntax trees, giving time-aligned, language-grounded neural data. This version is converted to BIDS-iEEG (BrainVision) and includes electrode metadata and atlas-derived spatial indices.",
+  "methods_description": "Intracranial EEG was recorded at 2048 Hz from an average of 168 electrodes per subject (1,688 total) in epilepsy patients undergoing monitoring at Boston Children's Hospital while they passively watched movies. Word onsets in the audio were manually annotated and parsed into Universal Dependencies trees. Per-trial HDF5 files were converted to BIDS-iEEG BrainVision format, with each movie as one run and corrupted electrodes flagged as bad.",
   "license": "CC BY 4.0",
   "dataset_type": "raw",
   "authors": {
@@ -23,29 +23,24 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "iEEG"
+      "term": "intracranial EEG"
     },
     {
       "term": "stereo-EEG"
     },
     {
-      "term": "naturalistic language processing"
+      "term": "naturalistic stimuli"
+    },
+    {
+      "term": "language"
+    },
+    {
+      "term": "movie viewing"
     },
     {
       "term": "Epilepsy",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "Universal Dependencies"
-    },
-    {
-      "term": "movie viewing"
     }
   ],
   "related_identifiers": [
