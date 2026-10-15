@@ -1,10 +1,10 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Wang et al. 2024 — Brain Treebank: Large-scale intracranial recordings from naturalistic language stimuli",
-  "description": "The Brain Treebank is a large-scale dataset of intracranial (stereo-EEG) recordings from 10 epilepsy patients who watched Hollywood movies. Signals were sampled at 2048 Hz from 1,688 electrodes in total, across 26 movie trials and about 43 hours of data. The movie audio was transcribed with manually annotated word onsets, and each transcript was parsed into Universal Dependencies syntax trees. This makes the dataset a resource for studying the neural basis of naturalistic language. This record provides the data in BIDS-iEEG format.",
-  "methods_description": "Intracranial EEG was recorded at 2048 Hz from epilepsy patients undergoing clinical monitoring at Boston Children's Hospital while they passively watched Hollywood movies. Movie audio was transcribed, word onsets were manually annotated, and transcripts were parsed into Universal Dependencies trees. Per-trial HDF5 files were converted to BIDS-iEEG BrainVision format, with each movie as one run and corrupted electrodes flagged as bad.",
-  "license": "CC BY 4.0",
+  "description": "The Brain Treebank is a large-scale intracranial EEG (stereo-EEG) dataset recorded at 2048 Hz from 10 epilepsy patients while they watched Hollywood movies, totalling about 43 hours across 26 movie-viewing trials and 1,688 electrodes. Movie audio was transcribed with manually annotated word onsets and parsed into Universal Dependencies syntax trees, grounding the recordings in naturalistic language. This record provides the data converted to BIDS-iEEG (BrainVision) format, with electrode metadata and spatial indices for atlas-based modelling.",
+  "methods_description": "Intracranial recordings were acquired at 2048 Hz from epilepsy patients undergoing clinical monitoring at Boston Children's Hospital during passive viewing of Hollywood movies. Each movie trial was converted from HDF5 to a BIDS-iEEG BrainVision run, with corrupted electrodes flagged as bad. Movie transcripts were word-aligned and parsed into Universal Dependencies trees.",
+  "license": "CC BY-NC 4.0",
   "dataset_type": "raw",
   "authors": {
     "Christopher Wang": {},
@@ -29,7 +29,10 @@
       "term": "stereo-EEG"
     },
     {
-      "term": "naturalistic language"
+      "term": "naturalistic stimuli"
+    },
+    {
+      "term": "language"
     },
     {
       "term": "movie viewing"
@@ -41,6 +44,12 @@
     },
     {
       "term": "syntax trees"
+    },
+    {
+      "term": "Universal Dependencies"
+    },
+    {
+      "term": "speech perception"
     }
   ],
   "related_identifiers": [
@@ -66,10 +75,11 @@
     "ieeg"
   ],
   "sizes": [
-    "508 GB (81 files)"
+    "643 GB (116 files)"
   ],
   "formats": [
     ".eeg",
+    ".ipynb",
     ".json",
     ".md",
     ".py",
@@ -80,5 +90,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "f49dfac9d666e00bc9f0d3531f9a6eaf25bb45125c36a728fef62cd96573b138"
+  "source_hash": "f5731a87d5606823c326ed62419dee1d2e3d05fa2953a81ec6eabfa6ae5854b7"
 }
