@@ -1,0 +1,17 @@
+1.2.0 2026-10-15
+  - Added sourcedata/original_release/: the Brain Treebank release from
+    https://braintreebank.dev/data/ byte for byte (38 files, 145.1 GB; zips not extracted),
+    including the 26 per-trial HDF5 archives the BIDS runs were converted from.
+    movie_frames.zip (frames of the commercial films) is included.
+  - Added sourcedata/SOURCE_FILES.tsv and sourcedata/sourcedata_provenance.json (URL, size,
+    SHA-256, MD5, retrieval time per file). The MD5 of every extracted HDF5 file matches the
+    release's subject_data_hashes.zip.
+  - README: new "Source data" section. .bidsignore: sourcedata/.
+  - License changed from CC BY 4.0 to CC BY-NC 4.0 (movie frames are copyrighted by the
+    film owners; non-commercial research use only).
+  - BIDS recordings and sidecars unchanged.
+1.1.0 2026-09-21
+  - Added BaRISTA spatial indices (barista_parcel_index, barista_lobe_index) to
+    electrodes.tsv and electrodes.json.
+1.0.0 2026-06-08
+  - Initial release.

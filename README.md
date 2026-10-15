@@ -94,6 +94,30 @@ movie) becomes one BIDS run. EEG-BIDS / MNE-BIDS were used only for standardisat
 data themselves are from the original Brain Treebank release. Please credit the original
 creators (Wang et al.) and cite the paper above.
 
+## Source data
+
+`sourcedata/original_release/` holds the Brain Treebank release as published at
+https://braintreebank.dev/data/ (retrieved 2026-10-15), byte for byte and under the same
+relative paths; the zips are not extracted (38 files, 145.1 GB). It contains the 26
+per-trial `subject_data/sub_<s>/trial<NNN>/sub_<s>_trial<NNN>.h5.zip` archives (raw
+2048 Hz HDF5, the input of the BIDS conversion in `code/convert_braintreebank.py`), the
+metadata archives (`electrode_labels.zip`, `localization.zip`, `subject_metadata.zip`,
+`subject_timings.zip`, `transcripts.zip`, `trees.zip`, `scene_annotations.zip`,
+`speaker_annotations.zip`), `corrupted_elec.json`, `subject_data_hashes.zip` and
+`quickstart.ipynb`, and `movie_frames.zip` (frames of the commercial films shown to the
+participants).
+
+`sourcedata/SOURCE_FILES.tsv` and `sourcedata/sourcedata_provenance.json` give each file's
+URL, size, SHA-256, MD5 and retrieval time. The release publishes checksums only for the
+extracted HDF5 files (MD5s in `subject_data_hashes.zip`); all 26 match. Neuroprobe and the
+original code release expect the HDF5 files extracted into one directory
+(`$ROOT_DIR_BRAINTREEBANK/sub_<s>_trial<NNN>.h5`) next to the extracted metadata folders.
+See License below; cite as for the recordings.
+
 ## License
 
-CC BY 4.0 (see `dataset_description.json`).
+From version 1.2.0 this dataset is distributed under **CC BY-NC 4.0** (non-commercial use only).
+The upstream Brain Treebank release (https://braintreebank.dev) is published under CC BY 4.0;
+this deposit adopts the more restrictive CC BY-NC 4.0 because `sourcedata/original_release/movie_frames.zip`
+contains frames of commercial films whose copyright remains with their owners. Those frames are
+included for non-commercial research use only and are not licensed by this deposit.
