@@ -3,7 +3,7 @@
   "BIDSVersion": "1.9.0",
   "HEDVersion": "8.2.0",
   "DatasetType": "raw",
-  "License": "CC BY 4.0",
+  "License": "CC BY-NC 4.0",
   "Authors": [
     "Christopher Wang",
     "Adam Yaari",

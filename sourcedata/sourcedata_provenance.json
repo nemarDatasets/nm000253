@@ -1,20 +1,15 @@
 {
  "dataset": "nm000253",
  "source": "Brain Treebank original release, https://braintreebank.dev/data/",
- "license": "CC BY 4.0",
+ "license": "CC BY-NC 4.0 (upstream release CC BY 4.0; movie frames copyrighted by the film owners, non-commercial research use)",
  "doi": "10.48550/arXiv.2411.08343",
  "retrieved": "2026-10-15T12:42:26Z",
  "retrieved_by": "Bruno Aristimunha (Voyager Job btb-dl, curl)",
  "naming": "sourcedata/original_release/<path under https://braintreebank.dev/data/>, bytes as published (zips not extracted)",
- "excluded": [
-  {
-   "file": "movie_frames.zip",
-   "reason": "copyrighted film frames; never redistributed"
-  }
- ],
+ "excluded": [],
  "checksums_published_by_source": "subject_data_hashes.zip: md5 of each extracted sub_N_trialNNN.h5 (checked: all 26 match). No checksums are published for the zip files or the other files; sha256/md5 below were computed on retrieval.",
- "n_files": 37,
- "total_bytes": 144924982699,
+ "n_files": 38,
+ "total_bytes": 145093234468,
  "files": [
   {
    "file": "original_release/corrupted_elec.json",
@@ -600,6 +595,23 @@
    "member_md5_published": "a990ccdca79a87586f4caae513d2dd67",
    "subject": "10",
    "scope": "subject"
+  },
+  {
+   "file": "original_release/movie_frames.zip",
+   "url": "https://braintreebank.dev/data/movie_frames.zip",
+   "bytes": 168251769,
+   "sha256": "715d6d82b59c1a5067d743498f3b0db7bc69207461755d943dc7c4046f154629",
+   "md5": "6fc785029605b31afd6aa82062abdfb2",
+   "retrieved_utc": "2026-10-15T14:12:20Z",
+   "server_last_modified": "Wed, 01 Jan 2025 03:49:13 GMT",
+   "server_etag": "a075179-62a9cedd46c6b",
+   "member": "n/a",
+   "member_bytes": "n/a",
+   "member_md5": "n/a",
+   "member_md5_published": "n/a",
+   "how": "downloaded (curl), Bruno 2026-10-15: included under CC BY-NC 4.0",
+   "subject": null,
+   "scope": "dataset"
   }
  ]
 }
