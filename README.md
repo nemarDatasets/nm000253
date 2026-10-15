@@ -94,6 +94,26 @@ movie) becomes one BIDS run. EEG-BIDS / MNE-BIDS were used only for standardisat
 data themselves are from the original Brain Treebank release. Please credit the original
 creators (Wang et al.) and cite the paper above.
 
+## Source data
+
+`sourcedata/original_release/` holds the Brain Treebank release as published at
+https://braintreebank.dev/data/ (retrieved 2026-10-15), byte for byte and under the same
+relative paths; the zips are not extracted (37 files, 144.9 GB). It contains the 26
+per-trial `subject_data/sub_<s>/trial<NNN>/sub_<s>_trial<NNN>.h5.zip` archives (raw
+2048 Hz HDF5, the input of the BIDS conversion in `code/convert_braintreebank.py`), the
+metadata archives (`electrode_labels.zip`, `localization.zip`, `subject_metadata.zip`,
+`subject_timings.zip`, `transcripts.zip`, `trees.zip`, `scene_annotations.zip`,
+`speaker_annotations.zip`), `corrupted_elec.json`, `subject_data_hashes.zip` and
+`quickstart.ipynb`. `movie_frames.zip` (frames of the commercial films) is not
+redistributed.
+
+`sourcedata/SOURCE_FILES.tsv` and `sourcedata/sourcedata_provenance.json` give each file's
+URL, size, SHA-256, MD5 and retrieval time. The release publishes checksums only for the
+extracted HDF5 files (MD5s in `subject_data_hashes.zip`); all 26 match. Neuroprobe and the
+original code release expect the HDF5 files extracted into one directory
+(`$ROOT_DIR_BRAINTREEBANK/sub_<s>_trial<NNN>.h5`) next to the extracted metadata folders.
+The same licence (CC BY 4.0) and citation apply as for the recordings.
+
 ## License
 
 CC BY 4.0 (see `dataset_description.json`).
